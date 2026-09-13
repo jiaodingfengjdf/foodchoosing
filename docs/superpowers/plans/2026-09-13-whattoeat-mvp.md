@@ -2506,7 +2506,7 @@ git push
 
 **Files:**
 - Create: `client/package.json`, `client/vite.config.ts`, `client/tsconfig.json`, `client/tailwind.config.js`, `client/postcss.config.js`, `client/index.html`, `client/src/styles/index.css`, `client/src/main.tsx`, `client/src/App.tsx`
-- Create: `client/src/lib/device.ts`, `client/src/lib/api.ts`, `client/src/api/types.ts`, `client/src/api/hooks.ts`
+- Create: `client/src/lib/device.ts`, `client/src/lib/api.ts`, `client/src/lib/offlineQueue.ts`, `client/src/api/types.ts`, `client/src/api/hooks.ts`
 - Create: `client/src/components/TabBar.tsx`
 - Create: `client/vitest.config.ts`, `client/src/test/setup.ts`
 - Test: `client/src/App.test.tsx`
@@ -2714,6 +2714,67 @@ export function track(eventId: TrackEvent, params: Record<string, unknown> = {})
     navigator.sendBeacon("/api/events", new Blob([payload], { type: "application/json" }));
   } else {
     void fetch("/api/events", { method: "POST", body: payload, keepalive: true, headers: { "Content-Type": "application/json" } });
+  }
+}
+```
+
+`client/src/lib/offlineQueue.ts`（打卡离线暂存队列；App.test 与 Task 16 依赖此模块）：
+```ts
+import { apiForm } from "./api";
+
+const KEY = "wte_pending_checkins";
+
+export interface PendingCheckin {
+  recipe_id: string;
+  rating: number;
+  review?: string;
+  photoDataUrl?: string;
+}
+
+interface Queued extends PendingCheckin { id: string }
+
+function read(): Queued[] {
+  try {
+    return JSON.parse(localStorage.getItem(KEY) ?? "[]") as Queued[];
+  } catch {
+    return [];
+  }
+}
+
+function write(items: Queued[]): void {
+  localStorage.setItem(KEY, JSON.stringify(items));
+}
+
+export function enqueueCheckin(op: PendingCheckin): void {
+  const items = read();
+  items.push({ ...op, id: `local-${Date.now()}-${Math.random().toString(36).slice(2)}` });
+  write(items);
+}
+
+export function pendingCheckins(): Queued[] {
+  return read();
+}
+
+export function removeCheckin(id: string): void {
+  write(read().filter((i) => i.id !== id));
+}
+
+export async function replayCheckins(): Promise<void> {
+  for (const item of read()) {
+    const form = new FormData();
+    form.append("recipe_id", item.recipe_id);
+    form.append("rating", String(item.rating));
+    if (item.review) form.append("review", item.review);
+    if (item.photoDataUrl) {
+      const blob = await (await fetch(item.photoDataUrl)).blob();
+      form.append("photo", blob, "dish.jpg");
+    }
+    try {
+      await apiForm("/api/checkins", form);
+      removeCheckin(item.id);
+    } catch {
+      return; // 失败中止，保留剩余待下次
+    }
   }
 }
 ```
@@ -3974,7 +4035,7 @@ git commit -m "feat(client): 食谱详情页（清单划线/步骤计时器/悬�
 ### Task 16: 打卡弹窗（上传压缩 / 彩屑 / 徽章喜报 / 断网暂存）
 
 **Files:**
-- Create: `client/src/lib/confetti.ts`, `client/src/lib/offlineQueue.ts`, `client/src/components/CheckinModal.tsx`, `client/src/components/BadgeUnlockedModal.tsx`
+- Create: `client/src/lib/confetti.ts`, `client/src/components/CheckinModal.tsx`, `client/src/components/BadgeUnlockedModal.tsx`（`offlineQueue.ts` 已在 Task 12 创建，本任务为其补测试并在 App 挂载回放）
 - Modify: `client/src/pages/RecipeDetailPage.tsx`（接入 CheckinModal 与成功流转）, `client/src/App.tsx`（挂 `online` 事件回放）
 - Test: `client/src/lib/offlineQueue.test.ts`, `client/src/components/CheckinModal.test.tsx`
 
@@ -4071,7 +4132,7 @@ export function fireConfetti(): void {
 }
 ```
 
-`client/src/lib/offlineQueue.ts`：
+`client/src/lib/offlineQueue.ts`（已在 Task 12 创建——下方代码即其最终实现；若文件已存在且内容一致则跳过，仅需补本任务的测试）：
 ```ts
 import { apiForm } from "./api";
 
