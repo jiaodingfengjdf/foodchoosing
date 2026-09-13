@@ -128,7 +128,7 @@ server/uploads/*
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "better-sqlite3": "^11.5.0",
+    "better-sqlite3": "^12.4.1",
     "express": "^4.21.2",
     "helmet": "^8.0.0",
     "multer": "^1.4.5-lts.1",

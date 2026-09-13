@@ -1,1 +1,7 @@
+node_modules/
+dist/
+data/*.db*
+server/uploads/*
+!server/uploads/.gitkeep
+.env
 .superpowers/
