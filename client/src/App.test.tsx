@@ -12,6 +12,9 @@ vi.mock("./api/hooks", () => ({
   // HomePage 接入转盘后会调用这两个 hook，缺失会导致渲染直接抛错
   useSpin: () => ({ mutate: vi.fn(), isError: false, isPending: false }),
   useReroll: () => ({ mutate: vi.fn(), isPending: false }),
+  // 详情页路由（本文件第三个用例会渲染它）需要这两个，缺失同样会抛错
+  useRecipe: () => ({ data: undefined, isLoading: false }),
+  useFavoriteToggle: () => ({ mutate: vi.fn() }),
 }));
 vi.mock("./lib/api", () => ({
   api: vi.fn().mockResolvedValue({}),
