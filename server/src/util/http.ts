@@ -32,6 +32,18 @@ export function errorHandler(err: unknown, _req: Request, res: Response, _next: 
     });
     return;
   }
+  // multer 抛出的 MulterError 不带 status，需显式映射，否则会被错报成 500
+  const m = err as { name?: unknown; code?: unknown };
+  if (m?.name === "MulterError") {
+    const tooLarge = m.code === "LIMIT_FILE_SIZE";
+    res.status(tooLarge ? 422 : 400).json({
+      error: {
+        code: tooLarge ? "PHOTO_TOO_LARGE" : "VALIDATION_ERROR",
+        message: tooLarge ? "照片太大啦，请压缩到 5MB 以内" : "上传的文件不符合要求，请重新上传",
+      },
+    });
+    return;
+  }
   // express.json() 遇到非法 JSON 会抛 400；不应错报成 500
   const status = clientStatus(err);
   if (status !== undefined) {
