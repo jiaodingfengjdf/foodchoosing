@@ -31,7 +31,29 @@ export interface RecipeDTO {
   color_tag: string;
 }
 
-type CuisineRowLike = { id: string; name: string; parent_id: string | null };
+export type SceneTag = "quick" | "weekend";
+
+/** 收藏项：菜谱 DTO + 收藏时间 + 地域聚合 + 场景标签。 */
+export interface FavoriteDTO extends RecipeDTO {
+  favorited_at: string;
+  continent: string;
+  country: string;
+  scene_tags: SceneTag[];
+}
+
+type CuisineRowLike = { id: string; level: number; parent_id: string | null; name: string };
+
+/** 取某菜系的完整祖先链（L1 → … → 自身）。 */
+export function cuisineAncestors(db: DB, cuisineId: string): CuisineRowLike[] {
+  const stmt = db.prepare("SELECT * FROM cuisines WHERE id = ?");
+  const chain: CuisineRowLike[] = [];
+  let cur = stmt.get(cuisineId) as CuisineRowLike | undefined;
+  while (cur) {
+    chain.unshift(cur);
+    cur = cur.parent_id ? (stmt.get(cur.parent_id) as CuisineRowLike | undefined) : undefined;
+  }
+  return chain;
+}
 
 /** 构造「亚洲 > 东亚 > 中国 > 川菜」形式的菜系路径解析器。 */
 export function makeCuisinePath(db: DB) {
