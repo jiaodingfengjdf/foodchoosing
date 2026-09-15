@@ -9,6 +9,9 @@ vi.mock("./api/hooks", () => ({
   useProfile: () => ({ data: undefined }),
   useFavorites: () => ({ data: undefined }),
   useBadges: () => ({ data: undefined }),
+  // HomePage 接入转盘后会调用这两个 hook，缺失会导致渲染直接抛错
+  useSpin: () => ({ mutate: vi.fn(), isError: false, isPending: false }),
+  useReroll: () => ({ mutate: vi.fn(), isPending: false }),
 }));
 vi.mock("./lib/api", () => ({
   api: vi.fn().mockResolvedValue({}),
