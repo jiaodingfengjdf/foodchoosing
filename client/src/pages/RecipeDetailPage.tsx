@@ -4,7 +4,10 @@ import { useRecipe, useFavoriteToggle } from "../api/hooks";
 import { api } from "../lib/api";
 import { IngredientList } from "../components/IngredientList";
 import { StepTimer } from "../components/StepTimer";
+import { CheckinModal } from "../components/CheckinModal";
+import { BadgeUnlockedModal } from "../components/BadgeUnlockedModal";
 import { parseTimeSegments, type Segment } from "../lib/timeText";
+import type { BadgeInfo } from "../api/types";
 
 function StepText({ text, onTimer }: { text: string; onTimer: (seconds: number, label: string) => void }) {
   return (
@@ -33,6 +36,8 @@ export function RecipeDetailPage() {
   const [timer, setTimer] = useState<{ seconds: number; label: string } | null>(null);
   const [fav, setFav] = useState<boolean | null>(null);
   const [imgFailed, setImgFailed] = useState(false);
+  const [checkinOpen, setCheckinOpen] = useState(false);
+  const [badges, setBadges] = useState<BadgeInfo[]>([]);
   const toggleFav = useFavoriteToggle(id ?? "");
   const recipe = data?.recipe;
 
@@ -150,11 +155,21 @@ export function RecipeDetailPage() {
         <button
           className="ml-auto h-11 flex-1 rounded-full bg-brand-500 font-medium text-white"
           data-testid="checkin-open"
-          onClick={() => undefined /* Task 16 接入 CheckinModal */}
+          onClick={() => setCheckinOpen(true)}
         >
           完成今日打卡
         </button>
       </div>
+
+      {checkinOpen && (
+        <CheckinModal
+          recipe={recipe}
+          onClose={() => setCheckinOpen(false)}
+          onSuccess={(r) => setBadges(r.new_badges)}
+        />
+      )}
+
+      {badges.length > 0 && <BadgeUnlockedModal badges={badges} onClose={() => setBadges([])} />}
     </div>
   );
 }

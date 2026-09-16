@@ -39,21 +39,22 @@ export function removeCheckin(id: string): void {
   write(read().filter((i) => i.id !== id));
 }
 
-/** 恢复网络后重放队列；任一条失败即中止，保留剩余待下次。 */
+/** 恢复网络后重放队列；逐条上传，成功即移除，任一条失败即中止并保留剩余。 */
 export async function replayCheckins(): Promise<void> {
   for (const item of read()) {
-    const form = new FormData();
-    form.append("recipe_id", item.recipe_id);
-    form.append("rating", String(item.rating));
-    if (item.review) form.append("review", item.review);
-    if (item.photoDataUrl) {
-      const blob = await (await fetch(item.photoDataUrl)).blob();
-      form.append("photo", blob, "dish.jpg");
-    }
     try {
+      const form = new FormData();
+      form.append("recipe_id", item.recipe_id);
+      form.append("rating", String(item.rating));
+      if (item.review) form.append("review", item.review);
+      if (item.photoDataUrl) {
+        const blob = await (await fetch(item.photoDataUrl)).blob();
+        form.append("photo", blob, "dish.jpg");
+      }
       await apiForm("/api/checkins", form);
       removeCheckin(item.id);
     } catch {
+      // 整个单条都纳入 try：dataUrl 转 blob 失败也要中止，且本函数不应向外抛
       return;
     }
   }

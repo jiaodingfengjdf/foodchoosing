@@ -59,8 +59,9 @@ export interface BadgeInfo {
 
 export interface CheckinResponse {
   checkin_id: string;
-  streak: number;
-  max_streak: number;
+  /** 离线暂存时无结算结果，为 null */
+  streak: number | null;
+  max_streak: number | null;
   stat_date: string;
   new_badges: BadgeInfo[];
 }
