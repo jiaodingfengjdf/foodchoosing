@@ -15,6 +15,7 @@ vi.mock("./api/hooks", () => ({
   // 详情页路由（本文件第三个用例会渲染它）需要这两个，缺失同样会抛错
   useRecipe: () => ({ data: undefined, isLoading: false }),
   useFavoriteToggle: () => ({ mutate: vi.fn() }),
+  useSettings: () => ({ mutate: vi.fn() }),
 }));
 vi.mock("./lib/api", () => ({
   api: vi.fn().mockResolvedValue({}),
