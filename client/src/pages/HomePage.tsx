@@ -6,6 +6,7 @@ import { SpinResultModal } from "../components/SpinResultModal";
 import { useSpin, useReroll, useProfile } from "../api/hooks";
 import { useAppStore } from "../stores/useAppStore";
 import { track } from "../lib/api";
+import { localPick } from "../lib/localSpin";
 import type { SpinResponse } from "../api/types";
 
 export function HomePage() {
@@ -15,6 +16,7 @@ export function HomePage() {
   const [spinning, setSpinning] = useState(false);
   const [spinData, setSpinData] = useState<SpinResponse | null>(null);
   const [showResult, setShowResult] = useState(false);
+  const [offline, setOffline] = useState(false);
   const spinMut = useSpin();
   const rerollMut = useReroll();
   const profile = useProfile();
@@ -23,6 +25,7 @@ export function HomePage() {
     track("roulette_spin_click", { selected_category: cuisineId ?? "global", source });
     setSpinning(true);
     setShowResult(false);
+    setOffline(false);
     spinMut.mutate(
       { cuisine_id: cuisineId, source },
       {
@@ -30,8 +33,18 @@ export function HomePage() {
           setSpinData(d);
           setLastCandidates(d.candidates);
         },
-        // 断网降级在 Task 18 增强
-        onError: () => setSpinning(false),
+        onError: () => {
+          // 断网降级：用上次缓存的候选池本地抽奖，保证核心决策链路不断
+          const cached = useAppStore.getState().lastCandidates;
+          const picked = cached ? localPick(cached) : null;
+          if (picked && cached) {
+            setSpinData({ result: picked, candidates: cached, pooled_up: null, reroll_left: 0 });
+            setOffline(true);
+            setSpinning(true); // 动画结束后由 onSpinEnd 打开弹窗
+          } else {
+            setSpinning(false);
+          }
+        },
       }
     );
   };
@@ -88,7 +101,11 @@ export function HomePage() {
       </div>
 
       <p className="pb-2 text-center text-xs text-neutral-400">
-        {spinMut.isError ? "转盘开小差了，点按钮重试" : "选定风味圈，转一转决定今晚吃什么"}
+        {offline
+          ? "当前离线，已用缓存菜单本地抽奖"
+          : spinMut.isError
+            ? "转盘开小差了，点按钮重试"
+            : "选定风味圈，转一转决定今晚吃什么"}
       </p>
 
       <CuisinePicker open={pickerOpen} onClose={() => setPickerOpen(false)} />
@@ -96,6 +113,7 @@ export function HomePage() {
       {showResult && spinData && (
         <SpinResultModal
           data={spinData}
+          offline={offline}
           onClose={() => setShowResult(false)}
           onReroll={doReroll}
           rerolling={rerollMut.isPending}
