@@ -11,6 +11,7 @@ import type {
   RecipeDTO,
   SpinResponse,
   SpinSource,
+  CatalogResponse,
 } from "./types";
 
 interface SpinBody {
@@ -23,6 +24,13 @@ const jsonInit = (method: string, body: unknown): RequestInit => ({
   body: JSON.stringify(body),
   headers: { "Content-Type": "application/json" },
 });
+
+export function useCatalog(filters: Record<string, string | number | boolean | undefined> = {}) {
+  const params = new URLSearchParams();
+  for (const [key, value] of Object.entries(filters)) if (value !== undefined && value !== "") params.set(key, String(value));
+  return useQuery({ queryKey: ["catalog", params.toString()],
+    queryFn: () => api<CatalogResponse>(`/api/recipes?${params}`) });
+}
 
 export function useCuisineTree() {
   return useQuery({
@@ -73,6 +81,7 @@ export function useFavoriteToggle(recipeId: string) {
         : api<{ ok: true }>(`/api/favorites/${recipeId}`, { method: "DELETE" }),
     onSuccess: () => {
       void qc.invalidateQueries({ queryKey: ["favorites"] });
+      void qc.invalidateQueries({ queryKey: ["catalog"] });
       void qc.invalidateQueries({ queryKey: ["recipe", recipeId] });
     },
   });
@@ -85,6 +94,7 @@ export function useCheckin() {
     onSuccess: () => {
       void qc.invalidateQueries({ queryKey: ["profile"] });
       void qc.invalidateQueries({ queryKey: ["badges"] });
+      void qc.invalidateQueries({ queryKey: ["catalog"] });
     },
   });
 }

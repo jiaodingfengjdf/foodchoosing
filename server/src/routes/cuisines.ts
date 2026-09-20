@@ -16,6 +16,10 @@ export function cuisinesRouter(db: DB): Router {
     const cuisines = selectAll.all() as CuisineRow[];
     const counts = selectCounts.all() as { cuisine_id: string; n: number }[];
     const countMap = new Map(counts.map((c) => [c.cuisine_id, c.n]));
+    for (const cuisine of [...cuisines].sort((a, b) => b.level - a.level)) {
+      if (cuisine.parent_id) countMap.set(cuisine.parent_id,
+        (countMap.get(cuisine.parent_id) ?? 0) + (countMap.get(cuisine.id) ?? 0));
+    }
     res.json({
       nodes: cuisines.map((c) => ({
         id: c.id,

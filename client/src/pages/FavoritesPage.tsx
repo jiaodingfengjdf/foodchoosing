@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useFavorites } from "../api/hooks";
 import { useAppStore } from "../stores/useAppStore";
 import type { SceneTag } from "../api/types";
+import { DishPhoto } from "../components/DishPhoto";
 
 const FILTERS = [
   { key: "all", label: "全部" },
@@ -72,7 +73,7 @@ export function FavoritesPage() {
                 to={`/recipe/${item.id}`}
                 className="flex items-center gap-3 rounded-2xl bg-white p-3 shadow-sm"
               >
-                <span className="text-3xl">{item.emoji}</span>
+                <DishPhoto src={item.image_path} name={item.name} className="h-16 w-16 shrink-0 rounded-xl" />
                 <span className="flex-1">
                   <span className="block text-sm font-medium">{item.name}</span>
                   <span className="block text-xs text-neutral-400">

@@ -43,11 +43,11 @@ export const BADGES: BadgeDefSeed[] = [
   {
     id: "globe_master",
     name: "环球饕客",
-    description: "五大洲各完成 5 个不同国家的代表菜品",
+    description: "打卡亚洲、欧洲、北美洲和南美洲各一道菜",
     icon: "🌍",
     category: "world",
     ruleType: "continent_coverage",
-    ruleParams: { per_continent: 5, continents: ["亚洲", "欧洲", "非洲", "北美洲", "南美洲"] },
+    ruleParams: { per_continent: 1, continents: ["亚洲", "欧洲", "北美洲", "南美洲"] },
     sort: 4,
   },
   {
@@ -90,4 +90,15 @@ export const BADGES: BadgeDefSeed[] = [
     ruleParams: { distinct: 5 },
     sort: 8,
   },
+  ...([
+    ["sichuan", "川味初体验", "川菜", "🌶️"], ["yuecai", "粤味鲜赏", "粤菜", "🥬"],
+    ["hunan", "湘味探客", "湘菜", "🔥"], ["shandong", "鲁味寻鲜", "鲁菜", "🦐"],
+    ["fujian", "闽味寻踪", "闽菜", "🐚"], ["anhui", "徽州食记", "徽菜", "🏡"],
+    ["dongbei", "东北食客", "东北菜", "🥔"], ["xinjiang", "西域食记", "新疆菜", "🍗"],
+    ["guangxi", "桂味寻香", "广西菜", "🍜"], ["guizhou", "黔味探秘", "贵州菜", "🥘"],
+    ["shaanxi", "关中面客", "陕西菜", "🍝"], ["japanese-home", "和风日常", "日式家庭料理", "🍱"],
+  ] as const).map(([tag, name, region, icon], i): BadgeDefSeed => ({
+    id: `region_${tag}`, name, description: `完成一道${region}的打卡`, icon, category: "world",
+    ruleType: "cuisine_tag_count", ruleParams: { tag, distinct: 1 }, sort: 9 + i,
+  })),
 ];

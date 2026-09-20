@@ -1,7 +1,7 @@
 import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { RouletteWheel } from "./RouletteWheel";
+import { RouletteWheel, nextWheelRotation } from "./RouletteWheel";
 import type { RecipeDTO } from "../api/types";
 
 const mk = (id: string, name: string): RecipeDTO =>
@@ -12,6 +12,13 @@ const mk = (id: string, name: string): RecipeDTO =>
   }) as RecipeDTO;
 
 describe("RouletteWheel", () => {
+  it("每个候选的扇区中心最终与顶部指针对齐", () => {
+    for (const count of [1, 2, 6, 8]) for (let index = 0; index < count; index++) {
+      const rotation = nextWheelRotation(2317, index, count);
+      expect(rotation).toBeGreaterThanOrEqual(2317 + 1800);
+      expect(((rotation + (index + 0.5) * 360 / count) % 360)).toBeCloseTo(0);
+    }
+  });
   it("渲染全部候选扇区标签", () => {
     const candidates = ["a", "b", "c", "d", "e", "f"].map((s) => mk(s, `菜${s}`));
     render(<RouletteWheel candidates={candidates} spinning={false} resultId={null} onSpinEnd={vi.fn()} />);

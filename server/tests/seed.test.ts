@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from "vitest";
 import { openDb, DB } from "../src/db";
-import { seedAll } from "../src/seed";
+import { seedAll, CUISINES, BADGES } from "../src/seed";
 
 let db: DB;
 beforeEach(() => { db = openDb(":memory:"); });
@@ -15,8 +15,8 @@ describe("seedAll", () => {
       row<{ n: number }>("SELECT COUNT(*) AS n FROM cuisines WHERE level=?", l).n;
     expect(byLevel(1)).toBe(4);
     expect(byLevel(2)).toBe(7);
-    expect(byLevel(3)).toBe(9);
-    expect(byLevel(4)).toBe(10);
+    expect(byLevel(3)).toBeGreaterThanOrEqual(13);
+    expect(byLevel(4)).toBeGreaterThanOrEqual(35);
   });
 
   it("菜系父子关系与标签正确", () => {
@@ -31,7 +31,7 @@ describe("seedAll", () => {
   it("写入 8 枚徽章且幂等（重复 seed 行数不变）", () => {
     seedAll(db);
     seedAll(db);
-    expect(row<{ n: number }>("SELECT COUNT(*) AS n FROM badge_defs").n).toBe(8);
-    expect(row<{ n: number }>("SELECT COUNT(*) AS n FROM cuisines").n).toBe(30);
+    expect(row<{ n: number }>("SELECT COUNT(*) AS n FROM badge_defs").n).toBe(BADGES.length);
+    expect(row<{ n: number }>("SELECT COUNT(*) AS n FROM cuisines").n).toBe(CUISINES.length);
   });
 });

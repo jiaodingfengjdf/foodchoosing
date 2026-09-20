@@ -75,7 +75,7 @@ export function CuisinePicker({ open, onClose }: { open: boolean; onClose: () =>
         )}
 
         {children.map((n) => {
-          const hasChildren = n.level < MAX_LEVEL;
+          const hasChildren = nodes.some((child) => child.parent_id === n.id);
           return (
             <li key={n.id}>
               <button
@@ -88,7 +88,7 @@ export function CuisinePicker({ open, onClose }: { open: boolean; onClose: () =>
               >
                 <span>{n.name}</span>
                 <span className="text-xs text-neutral-400">
-                  {n.level === MAX_LEVEL ? `${n.dish_count} 道` : "›"}
+                  {n.dish_count} 道 {hasChildren ? "›" : ""}
                 </span>
               </button>
             </li>

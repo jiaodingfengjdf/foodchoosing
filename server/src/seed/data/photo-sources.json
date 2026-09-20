@@ -1,0 +1,896 @@
+{
+  "HC_00eefd3dcc": {
+    "imagePath": "/dish-images/HC_00eefd3dcc.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%BE%8A%E6%8E%92%E7%84%96%E9%9D%A2/%E7%BE%8A%E6%8E%92%E7%84%96%E9%9D%A2.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%BE%8A%E6%8E%92%E7%84%96%E9%9D%A2/%E7%BE%8A%E6%8E%92%E7%84%96%E9%9D%A2.jpg"
+  },
+  "HC_079e4b16e9": {
+    "imagePath": "/dish-images/HC_079e4b16e9.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E7%BE%8A%E8%82%89%E6%B1%A4/%E7%BE%8A%E8%82%89%E6%B1%A4.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E7%BE%8A%E8%82%89%E6%B1%A4/%E7%BE%8A%E8%82%89%E6%B1%A4.jpg"
+  },
+  "HC_0d8833d79b": {
+    "imagePath": "/dish-images/HC_0d8833d79b.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E6%B4%8B%E8%91%B1%E7%82%92%E9%B8%A1%E8%9B%8B/%E6%B4%8B%E8%91%B1%E7%82%92%E9%B8%A1%E8%9B%8B.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E6%B4%8B%E8%91%B1%E7%82%92%E9%B8%A1%E8%9B%8B/1.jpeg"
+  },
+  "HC_0ea0e27bf4": {
+    "imagePath": "/dish-images/HC_0ea0e27bf4.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E6%97%A0%E5%8E%A8%E5%B8%88%E6%9C%BA%E8%9C%82%E8%9C%9C%E9%9D%A2%E5%8C%85/%E6%97%A0%E5%8E%A8%E5%B8%88%E6%9C%BA%E8%9C%82%E8%9C%9C%E9%9D%A2%E5%8C%85.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E6%97%A0%E5%8E%A8%E5%B8%88%E6%9C%BA%E8%9C%82%E8%9C%9C%E9%9D%A2%E5%8C%85/%E6%97%A0%E5%8E%A8%E5%B8%88%E6%9C%BA%E8%9C%82%E8%9C%9C%E9%9D%A2%E5%8C%85.jpg"
+  },
+  "HC_105077135d": {
+    "imagePath": "/dish-images/HC_105077135d.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E8%8B%B1%E5%BC%8F%E5%8F%B8%E5%BA%B7/%E8%8B%B1%E5%BC%8F%E5%8F%B8%E5%BA%B7.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E8%8B%B1%E5%BC%8F%E5%8F%B8%E5%BA%B7/%E8%8B%B1%E5%BC%8F%E5%8F%B8%E5%BA%B7.png"
+  },
+  "HC_154935b0a1": {
+    "imagePath": "/dish-images/HC_154935b0a1.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E8%8A%8B%E6%B3%A5%E9%9B%AA%E5%AA%9A%E5%A8%98/%E8%8A%8B%E6%B3%A5%E9%9B%AA%E5%AA%9A%E5%A8%98.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E8%8A%8B%E6%B3%A5%E9%9B%AA%E5%AA%9A%E5%A8%98/%E8%8A%8B%E6%B3%A5%E9%9B%AA%E5%AA%9A%E5%A8%98%E6%88%90%E5%93%81.jpg"
+  },
+  "HC_1df3387e3d": {
+    "imagePath": "/dish-images/HC_1df3387e3d.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%B1%89%E6%B1%81%E8%92%B8%E7%99%BD%E9%B1%94/%E8%B1%89%E6%B1%81%E8%92%B8%E7%99%BD%E9%B1%94.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%B1%89%E6%B1%81%E8%92%B8%E7%99%BD%E9%B1%94/%E8%B1%89%E6%B1%81%E8%92%B8%E7%99%BD%E9%B1%94.jpeg"
+  },
+  "HC_207574a3a1": {
+    "imagePath": "/dish-images/HC_207574a3a1.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E7%B3%96%E6%8B%8C%E8%A5%BF%E7%BA%A2%E6%9F%BF/%E7%B3%96%E6%8B%8C%E8%A5%BF%E7%BA%A2%E6%9F%BF.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E7%B3%96%E6%8B%8C%E8%A5%BF%E7%BA%A2%E6%9F%BF/%E7%81%AB%E5%B1%B1%E9%A3%98%E9%9B%AA.jpg"
+  },
+  "HC_232a003d6d": {
+    "imagePath": "/dish-images/HC_232a003d6d.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E7%83%A4%E8%8C%84%E5%AD%90/%E7%83%A4%E8%8C%84%E5%AD%90.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E7%83%A4%E8%8C%84%E5%AD%90/%E7%83%A4%E8%8C%84%E5%AD%90.jpg"
+  },
+  "HC_25eea1b587": {
+    "imagePath": "/dish-images/HC_25eea1b587.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92.jpg"
+  },
+  "HC_2687aa4281": {
+    "imagePath": "/dish-images/HC_2687aa4281.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E6%97%A5%E5%BC%8F%E8%82%A5%E7%89%9B%E4%B8%BC%E9%A5%AD/%E6%97%A5%E5%BC%8F%E8%82%A5%E7%89%9B%E4%B8%BC%E9%A5%AD.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E6%97%A5%E5%BC%8F%E8%82%A5%E7%89%9B%E4%B8%BC%E9%A5%AD/%E6%88%90%E5%93%81.png"
+  },
+  "HC_270f008e3a": {
+    "imagePath": "/dish-images/HC_270f008e3a.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E6%9C%B1%E9%9B%80%E6%B1%A4/%E6%9C%B1%E9%9B%80%E6%B1%A4.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E6%9C%B1%E9%9B%80%E6%B1%A4/%E6%9C%B1%E9%9B%80%E6%B1%A4.jpg"
+  },
+  "HC_28690a6b73": {
+    "imagePath": "/dish-images/HC_28690a6b73.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/breakfast/%E8%8B%8F%E6%A0%BC%E5%85%B0%E8%9B%8B/%E8%8B%8F%E6%A0%BC%E5%85%B0%E8%9B%8B.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/breakfast/%E8%8B%8F%E6%A0%BC%E5%85%B0%E8%9B%8B/egg1.png"
+  },
+  "HC_28aa40f71d": {
+    "imagePath": "/dish-images/HC_28aa40f71d.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%81%AB%E8%85%BF%E9%A5%AD%E5%9B%A2/%E7%81%AB%E8%85%BF%E9%A5%AD%E5%9B%A2.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%81%AB%E8%85%BF%E9%A5%AD%E5%9B%A2/%E9%A5%AD%E5%9B%A2.png"
+  },
+  "HC_2977435287": {
+    "imagePath": "/dish-images/HC_2977435287.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89.jpg"
+  },
+  "HC_2aa39281e7": {
+    "imagePath": "/dish-images/HC_2aa39281e7.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%86%AC%E7%93%9C%E9%85%BF%E8%82%89/%E5%86%AC%E7%93%9C%E9%85%BF%E8%82%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%86%AC%E7%93%9C%E9%85%BF%E8%82%89/%E5%86%AC%E7%93%9C%E9%85%BF%E8%82%89%E6%88%90%E5%93%81.jpg"
+  },
+  "HC_2ac1464463": {
+    "imagePath": "/dish-images/HC_2ac1464463.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E8%8A%A5%E6%9C%AB%E9%BB%84%E6%B2%B9%E7%BD%97%E6%B0%8F%E8%99%BE/%E8%8A%A5%E6%9C%AB%E9%BB%84%E6%B2%B9%E7%BD%97%E6%B0%8F%E8%99%BE.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E8%8A%A5%E6%9C%AB%E9%BB%84%E6%B2%B9%E7%BD%97%E6%B0%8F%E8%99%BE/%E8%8A%A5%E6%9C%AB%E9%BB%84%E6%B2%B9%E7%BD%97%E6%B0%8F%E8%99%BE.jpg"
+  },
+  "HC_2d4aac871b": {
+    "imagePath": "/dish-images/HC_2d4aac871b.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E7%8E%89%E7%B1%B3%E6%8E%92%E9%AA%A8%E6%B1%A4/%E7%8E%89%E7%B1%B3%E6%8E%92%E9%AA%A8%E6%B1%A4.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E7%8E%89%E7%B1%B3%E6%8E%92%E9%AA%A8%E6%B1%A4/%E7%8E%89%E7%B1%B3%E6%8E%92%E9%AA%A8%E6%B1%A4.jpeg"
+  },
+  "HC_2dd5bcc453": {
+    "imagePath": "/dish-images/HC_2dd5bcc453.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E6%8B%94%E4%B8%9D%E5%9C%9F%E8%B1%86/%E6%8B%94%E4%B8%9D%E5%9C%9F%E8%B1%86.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E6%8B%94%E4%B8%9D%E5%9C%9F%E8%B1%86/1.jpeg"
+  },
+  "HC_2ee9dcd771": {
+    "imagePath": "/dish-images/HC_2ee9dcd771.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E9%99%95%E8%A5%BF%E6%B2%B9%E6%B3%BC%E9%9D%A2/%E9%99%95%E8%A5%BF%E6%B2%B9%E6%B3%BC%E9%9D%A2.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E9%99%95%E8%A5%BF%E6%B2%B9%E6%B3%BC%E9%9D%A2/%E6%88%90%E5%93%81.png"
+  },
+  "HC_2fbe274de6": {
+    "imagePath": "/dish-images/HC_2fbe274de6.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%8D%A4%E8%8F%9C/%E5%8D%A4%E8%8F%9C.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%8D%A4%E8%8F%9C/%E5%8D%A4%E7%89%9B%E8%82%89.jpeg"
+  },
+  "HC_31c7d9d1e2": {
+    "imagePath": "/dish-images/HC_31c7d9d1e2.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E7%89%9B%E8%82%89%E5%92%96%E5%96%B1/%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E7%89%9B%E8%82%89%E5%92%96%E5%96%B1.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E7%89%9B%E8%82%89%E5%92%96%E5%96%B1/%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E7%89%9B%E8%82%89%E5%92%96%E5%96%B1.png"
+  },
+  "HC_347f1aaede": {
+    "imagePath": "/dish-images/HC_347f1aaede.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B.jpeg"
+  },
+  "HC_35395867fd": {
+    "imagePath": "/dish-images/HC_35395867fd.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%9A%9D%E6%B2%B9%E4%B8%89%E9%B2%9C%E8%8F%87/%E8%9A%9D%E6%B2%B9%E4%B8%89%E9%B2%9C%E8%8F%87.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%9A%9D%E6%B2%B9%E4%B8%89%E9%B2%9C%E8%8F%87/2.jpeg"
+  },
+  "HC_38de6ed230": {
+    "imagePath": "/dish-images/HC_38de6ed230.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%A6%99%E7%85%8E%E4%BA%94%E8%8A%B1%E8%82%89/%E9%A6%99%E7%85%8E%E4%BA%94%E8%8A%B1%E8%82%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%A6%99%E7%85%8E%E4%BA%94%E8%8A%B1%E8%82%89/%E9%A6%99%E7%85%8E%E4%BA%94%E8%8A%B1%E8%82%89.jpg"
+  },
+  "HC_3917dc84c1": {
+    "imagePath": "/dish-images/HC_3917dc84c1.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC.jpg"
+  },
+  "HC_3a5d0700fd": {
+    "imagePath": "/dish-images/HC_3a5d0700fd.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%BE%BD%E6%B4%BE%E7%BA%A2%E7%83%A7%E8%82%89/%E5%BE%BD%E6%B4%BE%E7%BA%A2%E7%83%A7%E8%82%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%BE%BD%E6%B4%BE%E7%BA%A2%E7%83%A7%E8%82%89/2.jpeg"
+  },
+  "HC_3acafdb8f4": {
+    "imagePath": "/dish-images/HC_3acafdb8f4.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E7%82%92%E6%BB%91%E8%9B%8B/%E7%82%92%E6%BB%91%E8%9B%8B.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E7%82%92%E6%BB%91%E8%9B%8B/%E7%82%92%E6%BB%91%E8%9B%8B.jpg"
+  },
+  "HC_3bc9a48b1e": {
+    "imagePath": "/dish-images/HC_3bc9a48b1e.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%B0%96%E5%8F%AB%E7%89%9B%E8%9B%99/%E5%B0%96%E5%8F%AB%E7%89%9B%E8%9B%99.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%B0%96%E5%8F%AB%E7%89%9B%E8%9B%99/%E5%B0%96%E5%8F%AB%E7%89%9B%E8%9B%99.jpg"
+  },
+  "HC_3f38c92450": {
+    "imagePath": "/dish-images/HC_3f38c92450.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E8%8E%B4%E7%AC%8B/%E5%87%89%E6%8B%8C%E8%8E%B4%E7%AC%8B.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E8%8E%B4%E7%AC%8B/1.jpeg"
+  },
+  "HC_3f39cb9726": {
+    "imagePath": "/dish-images/HC_3f39cb9726.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E9%98%B3%E6%9C%94%E5%95%A4%E9%85%92%E9%B1%BC/%E9%98%B3%E6%9C%94%E5%95%A4%E9%85%92%E9%B1%BC.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E9%98%B3%E6%9C%94%E5%95%A4%E9%85%92%E9%B1%BC/%E9%98%B3%E6%9C%94%E5%95%A4%E9%85%92%E9%B1%BC.png"
+  },
+  "HC_4166f6392f": {
+    "imagePath": "/dish-images/HC_4166f6392f.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE.jpg"
+  },
+  "HC_4569b89ce8": {
+    "imagePath": "/dish-images/HC_4569b89ce8.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%95%A4%E9%85%92%E9%B8%AD/%E5%95%A4%E9%85%92%E9%B8%AD.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%95%A4%E9%85%92%E9%B8%AD/%E5%95%A4%E9%85%92%E9%B8%AD.jpg"
+  },
+  "HC_466ccd4af9": {
+    "imagePath": "/dish-images/HC_466ccd4af9.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E7%82%B8%E9%B2%9C%E5%A5%B6/%E7%82%B8%E9%B2%9C%E5%A5%B6.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E7%82%B8%E9%B2%9C%E5%A5%B6/%E7%82%B8%E9%B2%9C%E5%A5%B6.jpg"
+  },
+  "HC_47860097d7": {
+    "imagePath": "/dish-images/HC_47860097d7.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E6%B2%B3%E5%8D%97%E8%92%B8%E9%9D%A2%E6%9D%A1/%E6%B2%B3%E5%8D%97%E8%92%B8%E9%9D%A2%E6%9D%A1.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E6%B2%B3%E5%8D%97%E8%92%B8%E9%9D%A2%E6%9D%A1/%E6%B2%B3%E5%8D%97%E8%92%B8%E9%9D%A2%E6%9D%A1.png"
+  },
+  "HC_47f421ff7c": {
+    "imagePath": "/dish-images/HC_47f421ff7c.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E6%84%8F%E5%BC%8F%E8%82%89%E9%85%B1%E9%9D%A2/%E6%84%8F%E5%BC%8F%E8%82%89%E9%85%B1%E9%9D%A2.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E6%84%8F%E5%BC%8F%E8%82%89%E9%85%B1%E9%9D%A2/final.jpg"
+  },
+  "HC_4c84991666": {
+    "imagePath": "/dish-images/HC_4c84991666.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E5%9F%BA%E7%A1%80%E7%89%9B%E5%A5%B6%E9%9D%A2%E5%8C%85/%E5%9F%BA%E7%A1%80%E7%89%9B%E5%A5%B6%E9%9D%A2%E5%8C%85.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E5%9F%BA%E7%A1%80%E7%89%9B%E5%A5%B6%E9%9D%A2%E5%8C%85/1-1%E6%88%90%E5%93%81.jpg"
+  },
+  "HC_4eef8da1a4": {
+    "imagePath": "/dish-images/HC_4eef8da1a4.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E9%B2%A3%E9%B1%BC%E6%B5%B7%E8%8B%94%E7%8E%89%E7%B1%B3%E9%A5%AD/%E9%B2%A3%E9%B1%BC%E6%B5%B7%E8%8B%94%E7%8E%89%E7%B1%B3%E9%A5%AD.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E9%B2%A3%E9%B1%BC%E6%B5%B7%E8%8B%94%E7%8E%89%E7%B1%B3%E9%A5%AD/%E7%B1%B3%E9%A5%AD.jpg"
+  },
+  "HC_5217365b8a": {
+    "imagePath": "/dish-images/HC_5217365b8a.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%B9%BF%E5%BC%8F%E8%90%9D%E5%8D%9C%E7%89%9B%E8%85%A9/%E5%B9%BF%E5%BC%8F%E8%90%9D%E5%8D%9C%E7%89%9B%E8%85%A9.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%B9%BF%E5%BC%8F%E8%90%9D%E5%8D%9C%E7%89%9B%E8%85%A9/%E5%B9%BF%E5%BC%8F%E8%90%9D%E5%8D%9C%E7%89%9B%E8%85%A9.webp"
+  },
+  "HC_539a654696": {
+    "imagePath": "/dish-images/HC_539a654696.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E8%B1%86%E8%85%90%E6%B1%A4%E7%BE%B9/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E8%B1%86%E8%85%90%E6%B1%A4%E7%BE%B9.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E8%B1%86%E8%85%90%E6%B1%A4%E7%BE%B9/1.jpeg"
+  },
+  "HC_5ba06c920e": {
+    "imagePath": "/dish-images/HC_5ba06c920e.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%AF%9D%E6%A2%85%E7%85%AE%E6%AF%9B%E8%B1%86/%E8%AF%9D%E6%A2%85%E7%85%AE%E6%AF%9B%E8%B1%86.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%AF%9D%E6%A2%85%E7%85%AE%E6%AF%9B%E8%B1%86/1.jpeg"
+  },
+  "HC_5cbe9ba133": {
+    "imagePath": "/dish-images/HC_5cbe9ba133.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD.png"
+  },
+  "HC_62f5c5eabd": {
+    "imagePath": "/dish-images/HC_62f5c5eabd.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%BB%94%E5%BC%8F%E8%85%8A%E8%82%A0%E5%A8%83%E5%A8%83%E8%8F%9C/%E9%BB%94%E5%BC%8F%E8%85%8A%E8%82%A0%E5%A8%83%E5%A8%83%E8%8F%9C.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%BB%94%E5%BC%8F%E8%85%8A%E8%82%A0%E5%A8%83%E5%A8%83%E8%8F%9C/%E9%BB%94%E5%BC%8F%E8%85%8A%E8%82%A0%E5%A8%83%E5%A8%83%E8%8F%9C.jpg"
+  },
+  "HC_6389a2fa97": {
+    "imagePath": "/dish-images/HC_6389a2fa97.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E9%A6%99%E7%85%8E%E7%BF%98%E5%98%B4%E9%B1%BC/%E9%A6%99%E7%85%8E%E7%BF%98%E5%98%B4%E9%B1%BC.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E9%A6%99%E7%85%8E%E7%BF%98%E5%98%B4%E9%B1%BC/%E9%A6%99%E7%85%8E%E7%BF%98%E5%98%B4%E9%B1%BC.jpeg"
+  },
+  "HC_657d98c341": {
+    "imagePath": "/dish-images/HC_657d98c341.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C.jpg"
+  },
+  "HC_68fc1cccb4": {
+    "imagePath": "/dish-images/HC_68fc1cccb4.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E5%8B%BE%E8%8A%A1%E9%A6%99%E8%8F%87%E6%B1%A4/%E5%8B%BE%E8%8A%A1%E9%A6%99%E8%8F%87%E6%B1%A4.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E5%8B%BE%E8%8A%A1%E9%A6%99%E8%8F%87%E6%B1%A4/3.jpeg"
+  },
+  "HC_6a79ae3653": {
+    "imagePath": "/dish-images/HC_6a79ae3653.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C.jpg"
+  },
+  "HC_6c9759e104": {
+    "imagePath": "/dish-images/HC_6c9759e104.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%94%B0%E8%9E%BA%E9%85%BF/%E7%94%B0%E8%9E%BA%E9%85%BF.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%94%B0%E8%9E%BA%E9%85%BF/%E6%88%90%E5%93%81.jpeg"
+  },
+  "HC_6d14e4e180": {
+    "imagePath": "/dish-images/HC_6d14e4e180.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E9%B3%8A%E9%B1%BC%E7%82%96%E8%B1%86%E8%85%90/%E9%B3%8A%E9%B1%BC%E7%82%96%E8%B1%86%E8%85%90.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E9%B3%8A%E9%B1%BC%E7%82%96%E8%B1%86%E8%85%90/%E9%B3%8A%E9%B1%BC%E7%82%96%E8%B1%86%E8%85%90.jpg"
+  },
+  "HC_6d3ff5d873": {
+    "imagePath": "/dish-images/HC_6d3ff5d873.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%97%A0%E9%AA%A8%E9%B8%A1%E7%88%AA/%E6%97%A0%E9%AA%A8%E9%B8%A1%E7%88%AA.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%97%A0%E9%AA%A8%E9%B8%A1%E7%88%AA/%E6%97%A0%E9%AA%A8%E9%B8%A1%E7%88%AA.jpg"
+  },
+  "HC_6e25f917b0": {
+    "imagePath": "/dish-images/HC_6e25f917b0.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%94%B5%E9%A5%AD%E7%85%B2%E4%B8%89%E6%96%87%E9%B1%BC%E7%82%8A%E9%A5%AD/%E7%94%B5%E9%A5%AD%E7%85%B2%E4%B8%89%E6%96%87%E9%B1%BC%E7%82%8A%E9%A5%AD.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%94%B5%E9%A5%AD%E7%85%B2%E4%B8%89%E6%96%87%E9%B1%BC%E7%82%8A%E9%A5%AD/%E7%94%B5%E9%A5%AD%E7%85%B2%E4%B8%89%E6%96%87%E9%B1%BC%E7%82%8A%E9%A5%AD.webp"
+  },
+  "HC_70560f17ca": {
+    "imagePath": "/dish-images/HC_70560f17ca.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E6%9C%A8%E8%80%B3/%E5%87%89%E6%8B%8C%E6%9C%A8%E8%80%B3.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E6%9C%A8%E8%80%B3/10.jpg"
+  },
+  "HC_705d072906": {
+    "imagePath": "/dish-images/HC_705d072906.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%85%B1%E7%89%9B%E8%82%89/%E9%85%B1%E7%89%9B%E8%82%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%85%B1%E7%89%9B%E8%82%89/%E9%85%B1%E7%89%9B%E8%82%89.jpg"
+  },
+  "HC_70a79a2b0a": {
+    "imagePath": "/dish-images/HC_70a79a2b0a.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%82%92%E5%87%89%E7%B2%89/%E7%82%92%E5%87%89%E7%B2%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%82%92%E5%87%89%E7%B2%89/chaoliangfen.jpg"
+  },
+  "HC_71b42d2477": {
+    "imagePath": "/dish-images/HC_71b42d2477.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89/abaaba_1.png"
+  },
+  "HC_7438672ab7": {
+    "imagePath": "/dish-images/HC_7438672ab7.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C/%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C/4.jpeg"
+  },
+  "HC_75de1cf0c8": {
+    "imagePath": "/dish-images/HC_75de1cf0c8.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%8A%A5%E6%9C%AB%E7%BD%97%E6%B0%8F%E8%99%BE/%E8%8A%A5%E6%9C%AB%E7%BD%97%E6%B0%8F%E8%99%BE.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%8A%A5%E6%9C%AB%E7%BD%97%E6%B0%8F%E8%99%BE/%E8%8A%A5%E6%9C%AB%E7%BD%97%E6%B0%8F%E8%99%BE%E6%88%90%E5%93%81.jpg"
+  },
+  "HC_7807ba14b4": {
+    "imagePath": "/dish-images/HC_7807ba14b4.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%87%89%E6%8B%8C%E9%B8%A1%E4%B8%9D/%E5%87%89%E6%8B%8C%E9%B8%A1%E4%B8%9D.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%87%89%E6%8B%8C%E9%B8%A1%E4%B8%9D/%E5%87%89%E6%8B%8C%E9%B8%A1%E4%B8%9D.jpg"
+  },
+  "HC_79f8b63e62": {
+    "imagePath": "/dish-images/HC_79f8b63e62.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E6%88%9A%E9%A3%8E%E8%9B%8B%E7%B3%95/%E6%88%9A%E9%A3%8E%E8%9B%8B%E7%B3%95.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E6%88%9A%E9%A3%8E%E8%9B%8B%E7%B3%95/DSC08716.jpg"
+  },
+  "HC_7b51dc7380": {
+    "imagePath": "/dish-images/HC_7b51dc7380.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89/4.jpeg"
+  },
+  "HC_7d4015ae04": {
+    "imagePath": "/dish-images/HC_7d4015ae04.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%89%9B%E6%8E%92/%E7%89%9B%E6%8E%92.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%89%9B%E6%8E%92/%E7%89%9B%E6%8E%92.jpg"
+  },
+  "HC_7d56d2aaff": {
+    "imagePath": "/dish-images/HC_7d56d2aaff.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%A6%99%E8%8F%87%E6%BB%91%E9%B8%A1/%E9%A6%99%E8%8F%87%E6%BB%91%E9%B8%A1.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%A6%99%E8%8F%87%E6%BB%91%E9%B8%A1/%E9%A6%99%E8%8F%87%E6%BB%91%E9%B8%A1.jpg"
+  },
+  "HC_7de10c2138": {
+    "imagePath": "/dish-images/HC_7de10c2138.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E7%8E%9B%E6%A0%BC%E4%B8%BD%E7%89%B9%E9%A5%BC%E5%B9%B2/%E7%8E%9B%E6%A0%BC%E4%B8%BD%E7%89%B9%E9%A5%BC%E5%B9%B2.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E7%8E%9B%E6%A0%BC%E4%B8%BD%E7%89%B9%E9%A5%BC%E5%B9%B2/%E7%8E%9B%E6%A0%BC%E4%B8%BD%E7%89%B9%E9%A5%BC%E5%B9%B2.jpg"
+  },
+  "HC_7fcb527f36": {
+    "imagePath": "/dish-images/HC_7fcb527f36.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E9%B2%A4%E9%B1%BC%E7%82%96%E7%99%BD%E8%8F%9C/%E9%B2%A4%E9%B1%BC%E7%82%96%E7%99%BD%E8%8F%9C.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E9%B2%A4%E9%B1%BC%E7%82%96%E7%99%BD%E8%8F%9C/%E9%B2%A4%E9%B1%BC%E7%82%96%E7%99%BD%E8%8F%9C.jpeg"
+  },
+  "HC_80867c3bdf": {
+    "imagePath": "/dish-images/HC_80867c3bdf.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%A5%B6%E9%85%AA%E5%9F%B9%E6%A0%B9%E9%80%9A%E5%BF%83%E7%B2%89/%E5%A5%B6%E9%85%AA%E5%9F%B9%E6%A0%B9%E9%80%9A%E5%BF%83%E7%B2%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%A5%B6%E9%85%AA%E5%9F%B9%E6%A0%B9%E9%80%9A%E5%BF%83%E7%B2%89/oven.jpg"
+  },
+  "HC_817effcdb2": {
+    "imagePath": "/dish-images/HC_817effcdb2.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E8%80%81%E5%8F%8B%E7%8C%AA%E8%82%89%E7%B2%89/%E8%80%81%E5%8F%8B%E7%8C%AA%E8%82%89%E7%B2%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E8%80%81%E5%8F%8B%E7%8C%AA%E8%82%89%E7%B2%89/%E8%80%81%E5%8F%8B%E7%8C%AA%E8%82%89%E7%B2%89.jpg"
+  },
+  "HC_81ca962019": {
+    "imagePath": "/dish-images/HC_81ca962019.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E7%83%A4%E7%AE%B1%E7%89%88%E5%B7%B4%E6%96%AF%E5%85%8B%E8%8A%9D%E5%A3%AB%E8%9B%8B%E7%B3%95/%E7%83%A4%E7%AE%B1%E7%89%88%E5%B7%B4%E6%96%AF%E5%85%8B%E8%8A%9D%E5%A3%AB%E8%9B%8B%E7%B3%95.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E7%83%A4%E7%AE%B1%E7%89%88%E5%B7%B4%E6%96%AF%E5%85%8B%E8%8A%9D%E5%A3%AB%E8%9B%8B%E7%B3%95/%E7%83%A4%E7%AE%B1%E7%89%88%E5%B7%B4%E6%96%AF%E5%85%8B%E8%8A%9D%E5%A3%AB%E8%9B%8B%E7%B3%95.jpg"
+  },
+  "HC_8246ee1c7f": {
+    "imagePath": "/dish-images/HC_8246ee1c7f.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%83%A7%E9%A5%BC/%E8%8A%9D%E9%BA%BB%E7%83%A7%E9%A5%BC.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%83%A7%E9%A5%BC/%E8%8A%9D%E9%BA%BB%E7%83%A7%E9%A5%BC.jpg"
+  },
+  "HC_84361b19c3": {
+    "imagePath": "/dish-images/HC_84361b19c3.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E9%85%B1%E6%8B%8C%E8%8D%9E%E9%BA%A6%E9%9D%A2/%E9%85%B1%E6%8B%8C%E8%8D%9E%E9%BA%A6%E9%9D%A2.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E9%85%B1%E6%8B%8C%E8%8D%9E%E9%BA%A6%E9%9D%A2/1.jpeg"
+  },
+  "HC_8459887927": {
+    "imagePath": "/dish-images/HC_8459887927.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E5%92%96%E5%95%A1%E6%A4%B0%E5%A5%B6%E5%86%BB/%E5%92%96%E5%95%A1%E6%A4%B0%E5%A5%B6%E5%86%BB.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E5%92%96%E5%95%A1%E6%A4%B0%E5%A5%B6%E5%86%BB/%E5%92%96%E5%95%A1%E6%A4%B0%E5%A5%B6%E5%86%BB.png"
+  },
+  "HC_85671d1ff8": {
+    "imagePath": "/dish-images/HC_85671d1ff8.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%B4%B5%E5%B7%9E%E8%BE%A3%E5%AD%90%E9%B8%A1/%E8%B4%B5%E5%B7%9E%E8%BE%A3%E5%AD%90%E9%B8%A1.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%B4%B5%E5%B7%9E%E8%BE%A3%E5%AD%90%E9%B8%A1/%E8%B4%B5%E5%B7%9E%E8%BE%A3%E5%AD%90%E9%B8%A1.jpg"
+  },
+  "HC_8647c428a1": {
+    "imagePath": "/dish-images/HC_8647c428a1.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E9%9F%A9%E5%BC%8F%E6%8B%8C%E9%A5%AD/%E9%9F%A9%E5%BC%8F%E6%8B%8C%E9%A5%AD.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E9%9F%A9%E5%BC%8F%E6%8B%8C%E9%A5%AD/%E9%9F%A9%E5%BC%8F%E6%8B%8C%E9%A5%AD.png"
+  },
+  "HC_89f066cbf6": {
+    "imagePath": "/dish-images/HC_89f066cbf6.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%A1%82%E6%9E%97%E5%8D%81%E5%85%AB%E9%85%BF/%E6%A1%82%E6%9E%97%E5%8D%81%E5%85%AB%E9%85%BF.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%A1%82%E6%9E%97%E5%8D%81%E5%85%AB%E9%85%BF/%E8%8B%A6%E7%93%9C%E9%85%BF.png"
+  },
+  "HC_8a4894012e": {
+    "imagePath": "/dish-images/HC_8a4894012e.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E7%8C%AA%E8%B9%84/%E7%BA%A2%E7%83%A7%E7%8C%AA%E8%B9%84.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E7%8C%AA%E8%B9%84/%E7%BA%A2%E7%83%A7%E7%8C%AA%E8%B9%84.jpg"
+  },
+  "HC_8cdd6ea6b0": {
+    "imagePath": "/dish-images/HC_8cdd6ea6b0.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%B8%85%E8%92%B8%E9%B3%9C%E9%B1%BC/%E6%B8%85%E8%92%B8%E9%B3%9C%E9%B1%BC.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%B8%85%E8%92%B8%E9%B3%9C%E9%B1%BC/%E6%B8%85%E8%92%B8%E9%B3%9C%E9%B1%BC%E6%88%90%E5%93%81%E5%9B%BE.jpg"
+  },
+  "HC_8df0e82b64": {
+    "imagePath": "/dish-images/HC_8df0e82b64.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B.jpg"
+  },
+  "HC_91590461d4": {
+    "imagePath": "/dish-images/HC_91590461d4.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%80%81%E5%A6%88%E8%B9%84%E8%8A%B1/%E8%80%81%E5%A6%88%E8%B9%84%E8%8A%B1.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%80%81%E5%A6%88%E8%B9%84%E8%8A%B1/result3.jpg"
+  },
+  "HC_93e8eae75a": {
+    "imagePath": "/dish-images/HC_93e8eae75a.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%BE%B3%E9%97%A8%E6%B9%BF%E7%89%88%E5%85%8D%E6%B2%BB%E7%89%9B%E8%82%89%E9%A5%AD/%E6%BE%B3%E9%97%A8%E6%B9%BF%E7%89%88%E5%85%8D%E6%B2%BB%E7%89%9B%E8%82%89%E9%A5%AD.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%BE%B3%E9%97%A8%E6%B9%BF%E7%89%88%E5%85%8D%E6%B2%BB%E7%89%9B%E8%82%89%E9%A5%AD/%E6%BE%B3%E9%97%A8%E6%B9%BF%E7%89%88%E5%85%8D%E6%B2%BB%E7%89%9B%E8%82%89%E9%A5%AD.jpg"
+  },
+  "HC_96c78dcf19": {
+    "imagePath": "/dish-images/HC_96c78dcf19.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%8F%A3%E6%B0%B4%E9%B8%A1/%E5%8F%A3%E6%B0%B4%E9%B8%A1.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%8F%A3%E6%B0%B4%E9%B8%A1/%E5%8F%A3%E6%B0%B4%E9%B8%A1.jpg"
+  },
+  "HC_97241d6400": {
+    "imagePath": "/dish-images/HC_97241d6400.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%B9%B2%E7%85%B8%E4%BB%94%E9%B8%A1/%E5%B9%B2%E7%85%B8%E4%BB%94%E9%B8%A1.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%B9%B2%E7%85%B8%E4%BB%94%E9%B8%A1/%E5%B9%B2%E7%85%B8%E4%BB%94%E9%B8%A1%E6%88%90%E5%93%81.jpg"
+  },
+  "HC_9849ab75da": {
+    "imagePath": "/dish-images/HC_9849ab75da.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E8%92%9C%E9%A6%99%E9%BB%84%E6%B2%B9%E8%99%BE/%E8%92%9C%E9%A6%99%E9%BB%84%E6%B2%B9%E8%99%BE.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E8%92%9C%E9%A6%99%E9%BB%84%E6%B2%B9%E8%99%BE/1.jpg"
+  },
+  "HC_98d8614aaf": {
+    "imagePath": "/dish-images/HC_98d8614aaf.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E9%B8%A1%E8%9B%8B%E7%BE%B9/%E9%B8%A1%E8%9B%8B%E7%BE%B9.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E9%B8%A1%E8%9B%8B%E7%BE%B9/%E9%B8%A1%E8%9B%8B%E7%BE%B9.jpg"
+  },
+  "HC_9a42b59615": {
+    "imagePath": "/dish-images/HC_9a42b59615.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E9%BB%84%E6%B2%B9%E7%85%8E%E8%99%BE/%E9%BB%84%E6%B2%B9%E7%85%8E%E8%99%BE.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E9%BB%84%E6%B2%B9%E7%85%8E%E8%99%BE/%E9%BB%84%E6%B2%B9%E7%85%8E%E8%99%BE.jpg"
+  },
+  "HC_9bd7103117": {
+    "imagePath": "/dish-images/HC_9bd7103117.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C/%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C/1.JPG"
+  },
+  "HC_9bfc79f002": {
+    "imagePath": "/dish-images/HC_9bfc79f002.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%B0%8F%E7%82%92%E9%B8%A1%E8%82%9D/%E5%B0%8F%E7%82%92%E9%B8%A1%E8%82%9D.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%B0%8F%E7%82%92%E9%B8%A1%E8%82%9D/%E6%88%90%E5%93%81.jpg"
+  },
+  "HC_a1b786e7aa": {
+    "imagePath": "/dish-images/HC_a1b786e7aa.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%B7%84%E5%8D%9A%E7%83%A7%E7%83%A4/%E6%B7%84%E5%8D%9A%E7%83%A7%E7%83%A4.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%B7%84%E5%8D%9A%E7%83%A7%E7%83%A4/%E6%B7%84%E5%8D%9A%E7%83%A7%E7%83%A4.jpg"
+  },
+  "HC_a303b993cd": {
+    "imagePath": "/dish-images/HC_a303b993cd.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E8%8C%84%E5%AD%90%E8%82%89%E7%85%8E%E9%A5%BC/%E8%8C%84%E5%AD%90%E8%82%89%E7%85%8E%E9%A5%BC.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E8%8C%84%E5%AD%90%E8%82%89%E7%85%8E%E9%A5%BC/%E8%8C%84%E5%AD%90%E8%82%89%E7%85%8E%E9%A5%BC.jpg"
+  },
+  "HC_a4a374f470": {
+    "imagePath": "/dish-images/HC_a4a374f470.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%A6%99%E5%B9%B2%E8%8A%B9%E8%8F%9C%E7%82%92%E8%82%89/%E9%A6%99%E5%B9%B2%E8%8A%B9%E8%8F%9C%E7%82%92%E8%82%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%A6%99%E5%B9%B2%E8%8A%B9%E8%8F%9C%E7%82%92%E8%82%89/%E9%A6%99%E5%B9%B2%E8%8A%B9%E8%8F%9C%E7%82%92%E8%82%89.jpg"
+  },
+  "HC_a83b23bafe": {
+    "imagePath": "/dish-images/HC_a83b23bafe.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%82%92%E6%84%8F%E5%A4%A7%E5%88%A9%E9%9D%A2/%E7%82%92%E6%84%8F%E5%A4%A7%E5%88%A9%E9%9D%A2.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%82%92%E6%84%8F%E5%A4%A7%E5%88%A9%E9%9D%A2/a.jpg"
+  },
+  "HC_ab98e10a19": {
+    "imagePath": "/dish-images/HC_ab98e10a19.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%8D%94%E6%9E%9D%E8%82%89/%E8%8D%94%E6%9E%9D%E8%82%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%8D%94%E6%9E%9D%E8%82%89/7.jpeg"
+  },
+  "HC_abbe5cdc7d": {
+    "imagePath": "/dish-images/HC_abbe5cdc7d.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%8E%B4%E7%AC%8B%E5%8F%B6%E7%85%8E%E9%A5%BC/%E8%8E%B4%E7%AC%8B%E5%8F%B6%E7%85%8E%E9%A5%BC.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%8E%B4%E7%AC%8B%E5%8F%B6%E7%85%8E%E9%A5%BC/1.jpeg"
+  },
+  "HC_ac6945d094": {
+    "imagePath": "/dish-images/HC_ac6945d094.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%A6%99%E8%BE%A3%E9%B8%A1%E7%88%AA%E7%85%B2/%E9%A6%99%E8%BE%A3%E9%B8%A1%E7%88%AA%E7%85%B2.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%A6%99%E8%BE%A3%E9%B8%A1%E7%88%AA%E7%85%B2/result2.jpg"
+  },
+  "HC_ad94a4a534": {
+    "imagePath": "/dish-images/HC_ad94a4a534.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E9%9B%AA%E8%8A%B1%E9%85%A5/%E9%9B%AA%E8%8A%B1%E9%85%A5.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E9%9B%AA%E8%8A%B1%E9%85%A5/%E9%9B%AA%E8%8A%B1%E9%85%A5%E6%88%90%E5%93%81.jpg"
+  },
+  "HC_b22125d0b0": {
+    "imagePath": "/dish-images/HC_b22125d0b0.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%B9%98%E7%A5%81%E7%B1%B3%E5%A4%AB%E9%B8%AD/%E6%B9%98%E7%A5%81%E7%B1%B3%E5%A4%AB%E9%B8%AD.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%B9%98%E7%A5%81%E7%B1%B3%E5%A4%AB%E9%B8%AD/%E6%B9%98%E7%A5%81%E7%B1%B3%E5%A4%AB%E9%B8%AD.jpg"
+  },
+  "HC_b2689cb180": {
+    "imagePath": "/dish-images/HC_b2689cb180.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%83%99%E9%A5%BC/%E7%83%99%E9%A5%BC.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%83%99%E9%A5%BC/%E6%88%90%E5%93%81.jpg"
+  },
+  "HC_b2dc8cd084": {
+    "imagePath": "/dish-images/HC_b2dc8cd084.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%B1%86%E8%B1%89%E9%B2%AE%E9%B1%BC%E6%B2%B9%E9%BA%A6%E8%8F%9C/%E8%B1%86%E8%B1%89%E9%B2%AE%E9%B1%BC%E6%B2%B9%E9%BA%A6%E8%8F%9C.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%B1%86%E8%B1%89%E9%B2%AE%E9%B1%BC%E6%B2%B9%E9%BA%A6%E8%8F%9C/%E8%B1%86%E8%B1%89%E9%B2%AE%E9%B1%BC%E6%B2%B9%E9%BA%A6%E8%8F%9C%E6%88%90%E5%93%81.jpg"
+  },
+  "HC_b3f819f211": {
+    "imagePath": "/dish-images/HC_b3f819f211.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E9%B8%A1%E8%9B%8B%E6%8C%82%E9%9D%A2/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E9%B8%A1%E8%9B%8B%E6%8C%82%E9%9D%A2.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E9%B8%A1%E8%9B%8B%E6%8C%82%E9%9D%A2/tomatoNoodle.jpg"
+  },
+  "HC_bb0c28569d": {
+    "imagePath": "/dish-images/HC_bb0c28569d.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E5%B9%B2%E7%85%8E%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%BA%A2%E8%99%BE/%E5%B9%B2%E7%85%8E%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%BA%A2%E8%99%BE.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E5%B9%B2%E7%85%8E%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%BA%A2%E8%99%BE/%E5%B9%B2%E7%85%8E%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%BA%A2%E8%99%BE.jpg"
+  },
+  "HC_bbc05a0469": {
+    "imagePath": "/dish-images/HC_bbc05a0469.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E9%B8%A1%E8%9B%8B%E7%BE%B9/%E5%BE%AE%E6%B3%A2%E7%82%89%E9%B8%A1%E8%9B%8B%E7%BE%B9.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E9%B8%A1%E8%9B%8B%E7%BE%B9/%E5%BE%AE%E6%B3%A2%E7%82%89%E9%B8%A1%E8%9B%8B%E7%BE%B9.jpg"
+  },
+  "HC_bd53e6a9af": {
+    "imagePath": "/dish-images/HC_bd53e6a9af.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E7%85%A7%E7%83%A7%E9%B8%A1%E9%A5%AD/%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E7%85%A7%E7%83%A7%E9%B8%A1%E9%A5%AD.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E7%85%A7%E7%83%A7%E9%B8%A1%E9%A5%AD/%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E7%85%A7%E7%83%A7%E9%B8%A1%E9%A5%AD.jpg"
+  },
+  "HC_c05bc61add": {
+    "imagePath": "/dish-images/HC_c05bc61add.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%9F%B1%E5%80%99%E7%89%9B%E8%85%A9/%E6%9F%B1%E5%80%99%E7%89%9B%E8%85%A9.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%9F%B1%E5%80%99%E7%89%9B%E8%85%A9/%E6%9F%B1%E5%80%99%E7%89%9B%E8%85%A9.jpeg"
+  },
+  "HC_c21cc2749a": {
+    "imagePath": "/dish-images/HC_c21cc2749a.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E9%99%88%E7%9A%AE%E6%8E%92%E9%AA%A8%E6%B1%A4/%E9%99%88%E7%9A%AE%E6%8E%92%E9%AA%A8%E6%B1%A4.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E9%99%88%E7%9A%AE%E6%8E%92%E9%AA%A8%E6%B1%A4/%E9%99%88%E7%9A%AE%E6%8E%92%E9%AA%A8%E6%B1%A4.jpg"
+  },
+  "HC_c5c83d370e": {
+    "imagePath": "/dish-images/HC_c5c83d370e.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E7%B3%96%E9%86%8B%E9%B2%A4%E9%B1%BC/%E7%B3%96%E9%86%8B%E9%B2%A4%E9%B1%BC.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E7%B3%96%E9%86%8B%E9%B2%A4%E9%B1%BC/%E6%88%90%E5%93%81.jpg"
+  },
+  "HC_c7b3844fd1": {
+    "imagePath": "/dish-images/HC_c7b3844fd1.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%8C%AD%E7%99%BD%E7%82%92%E8%82%89/%E8%8C%AD%E7%99%BD%E7%82%92%E8%82%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%8C%AD%E7%99%BD%E7%82%92%E8%82%89/2.jpeg"
+  },
+  "HC_c97359f90b": {
+    "imagePath": "/dish-images/HC_c97359f90b.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%A7%9C%E7%82%92%E9%B8%A1/%E5%A7%9C%E7%82%92%E9%B8%A1.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%A7%9C%E7%82%92%E9%B8%A1/%E5%A7%9C%E7%82%92%E9%B8%A1.jpg"
+  },
+  "HC_c9ba0dfa0e": {
+    "imagePath": "/dish-images/HC_c9ba0dfa0e.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%8C%AA%E7%9A%AE%E5%86%BB/%E7%8C%AA%E7%9A%AE%E5%86%BB.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%8C%AA%E7%9A%AE%E5%86%BB/%E7%8C%AA%E7%9A%AE%E5%86%BB.jpg"
+  },
+  "HC_cacb35d45b": {
+    "imagePath": "/dish-images/HC_cacb35d45b.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E5%B0%8F%E7%82%92%E8%97%95%E4%B8%81/%E5%B0%8F%E7%82%92%E8%97%95%E4%B8%81.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E5%B0%8F%E7%82%92%E8%97%95%E4%B8%81/%E5%B0%8F%E7%82%92%E8%97%95%E4%B8%81.jpg"
+  },
+  "HC_cacb77d253": {
+    "imagePath": "/dish-images/HC_cacb77d253.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%9D%92%E6%A4%92%E9%85%BF/%E9%9D%92%E6%A4%92%E9%85%BF.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%9D%92%E6%A4%92%E9%85%BF/%E6%88%90%E5%93%81.jpeg"
+  },
+  "HC_cb7a62a39c": {
+    "imagePath": "/dish-images/HC_cb7a62a39c.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8/2.jpeg"
+  },
+  "HC_cc3d82d45c": {
+    "imagePath": "/dish-images/HC_cc3d82d45c.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%8D%B7%E5%85%B0%E8%B1%86%E7%82%92%E8%85%8A%E8%82%A0/%E8%8D%B7%E5%85%B0%E8%B1%86%E7%82%92%E8%85%8A%E8%82%A0.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E8%8D%B7%E5%85%B0%E8%B1%86%E7%82%92%E8%85%8A%E8%82%A0/1.png"
+  },
+  "HC_cf6b519cd7": {
+    "imagePath": "/dish-images/HC_cf6b519cd7.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83/%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83/%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83.jpg"
+  },
+  "HC_cf6d16056b": {
+    "imagePath": "/dish-images/HC_cf6d16056b.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E5%B0%8F%E9%BE%99%E8%99%BE/%E5%B0%8F%E9%BE%99%E8%99%BE.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E5%B0%8F%E9%BE%99%E8%99%BE/%E6%88%90%E5%93%81.jpg"
+  },
+  "HC_d01e40be67": {
+    "imagePath": "/dish-images/HC_d01e40be67.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E6%98%82%E5%88%BA%E9%B1%BC%E8%B1%86%E8%85%90%E6%B1%A4/%E6%98%82%E5%88%BA%E9%B1%BC%E8%B1%86%E8%85%90%E6%B1%A4.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E6%98%82%E5%88%BA%E9%B1%BC%E8%B1%86%E8%85%90%E6%B1%A4/%E6%98%82%E5%88%BA%E9%B1%BC%E8%B1%86%E8%85%90%E6%B1%A401.jpg"
+  },
+  "HC_d1901dda59": {
+    "imagePath": "/dish-images/HC_d1901dda59.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E8%8F%8C%E8%8F%87%E7%82%96%E4%B9%B3%E9%B8%BD/%E8%8F%8C%E8%8F%87%E7%82%96%E4%B9%B3%E9%B8%BD.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E8%8F%8C%E8%8F%87%E7%82%96%E4%B9%B3%E9%B8%BD/%E8%8F%8C%E8%8F%87%E7%82%96%E4%B9%B3%E9%B8%BD.jpg"
+  },
+  "HC_d19c4f3fae": {
+    "imagePath": "/dish-images/HC_d19c4f3fae.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E8%92%9C%E8%93%89%E8%99%BE/%E8%92%9C%E8%93%89%E8%99%BE.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E8%92%9C%E8%93%89%E8%99%BE/1.jpeg"
+  },
+  "HC_d1dc559161": {
+    "imagePath": "/dish-images/HC_d1dc559161.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E5%8C%85%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B%E7%B2%89%E4%B8%9D/%E5%8C%85%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B%E7%B2%89%E4%B8%9D.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E5%8C%85%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B%E7%B2%89%E4%B8%9D/1.jpg"
+  },
+  "HC_d3964bddc5": {
+    "imagePath": "/dish-images/HC_d3964bddc5.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E8%82%89/%E7%AE%80%E6%98%93%E7%BA%A2%E7%83%A7%E8%82%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E8%82%89/000.jpg"
+  },
+  "HC_d5562446bb": {
+    "imagePath": "/dish-images/HC_d5562446bb.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C/%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C/2.jpeg"
+  },
+  "HC_d5ec8ae8af": {
+    "imagePath": "/dish-images/HC_d5ec8ae8af.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E5%8F%8D%E6%B2%99%E8%8A%8B%E5%A4%B4/%E5%8F%8D%E6%B2%99%E8%8A%8B%E5%A4%B4.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E5%8F%8D%E6%B2%99%E8%8A%8B%E5%A4%B4/%E5%8F%8D%E6%B2%99%E8%8A%8B%E5%A4%B4%E6%88%90%E5%93%81.jpg"
+  },
+  "HC_d6062d999c": {
+    "imagePath": "/dish-images/HC_d6062d999c.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E7%83%A4%E8%9B%8B%E6%8C%9E/%E7%83%A4%E8%9B%8B%E6%8C%9E.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E7%83%A4%E8%9B%8B%E6%8C%9E/%E7%83%A4%E8%9B%8B%E6%8C%9E.png"
+  },
+  "HC_d63399a7c2": {
+    "imagePath": "/dish-images/HC_d63399a7c2.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%96%B0%E7%96%86%E5%A4%A7%E7%9B%98%E9%B8%A1/%E6%96%B0%E7%96%86%E5%A4%A7%E7%9B%98%E9%B8%A1.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%96%B0%E7%96%86%E5%A4%A7%E7%9B%98%E9%B8%A1/%E5%A4%A7%E7%9B%98%E9%B8%A1.jpeg"
+  },
+  "HC_d73dfca0e5": {
+    "imagePath": "/dish-images/HC_d73dfca0e5.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%82%92%E6%96%B9%E4%BE%BF%E9%9D%A2/%E7%82%92%E6%96%B9%E4%BE%BF%E9%9D%A2.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E7%82%92%E6%96%B9%E4%BE%BF%E9%9D%A2/%E7%82%92%E6%96%B9%E4%BE%BF%E9%9D%A2.png"
+  },
+  "HC_d7b25c6702": {
+    "imagePath": "/dish-images/HC_d7b25c6702.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E8%9B%8F%E6%8A%B1%E8%9B%8B/%E8%9B%8F%E6%8A%B1%E8%9B%8B.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E8%9B%8F%E6%8A%B1%E8%9B%8B/3.jpeg"
+  },
+  "HC_dcc957fc42": {
+    "imagePath": "/dish-images/HC_dcc957fc42.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%B0%8F%E7%82%92%E9%BB%84%E7%89%9B%E8%82%89/%E5%B0%8F%E7%82%92%E9%BB%84%E7%89%9B%E8%82%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%B0%8F%E7%82%92%E9%BB%84%E7%89%9B%E8%82%89/%E5%B0%8F%E7%82%92%E9%BB%84%E7%89%9B%E8%82%89.jpg"
+  },
+  "HC_dd0a8c8235": {
+    "imagePath": "/dish-images/HC_dd0a8c8235.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%8A%B9%E8%8F%9C%E6%8B%8C%E8%8C%B6%E6%A0%91%E8%8F%87/%E8%8A%B9%E8%8F%9C%E6%8B%8C%E8%8C%B6%E6%A0%91%E8%8F%87.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E8%8A%B9%E8%8F%9C%E6%8B%8C%E8%8C%B6%E6%A0%91%E8%8F%87/%E8%8A%B9%E8%8F%9C%E6%8B%8C%E8%8C%B6%E6%A0%91%E8%8F%87.jpg"
+  },
+  "HC_dd34e096b0": {
+    "imagePath": "/dish-images/HC_dd34e096b0.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E6%A4%92%E7%9B%90%E7%8E%89%E7%B1%B3/%E6%A4%92%E7%9B%90%E7%8E%89%E7%B1%B3.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E6%A4%92%E7%9B%90%E7%8E%89%E7%B1%B3/%E6%A4%92%E7%9B%90%E7%8E%89%E7%B1%B3.jpeg"
+  },
+  "HC_de00150563": {
+    "imagePath": "/dish-images/HC_de00150563.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%92%96%E5%96%B1%E8%82%A5%E7%89%9B/%E5%92%96%E5%96%B1%E8%82%A5%E7%89%9B.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%92%96%E5%96%B1%E8%82%A5%E7%89%9B/%E5%92%96%E5%96%B1%E8%82%A5%E7%89%9B.jpg"
+  },
+  "HC_e2b86380db": {
+    "imagePath": "/dish-images/HC_e2b86380db.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%98%A6%E8%82%89%E5%9C%9F%E8%B1%86%E7%89%87/%E7%98%A6%E8%82%89%E5%9C%9F%E8%B1%86%E7%89%87.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E7%98%A6%E8%82%89%E5%9C%9F%E8%B1%86%E7%89%87/%E7%98%A6%E8%82%89%E5%9C%9F%E8%B1%86%E7%89%87.jpg"
+  },
+  "HC_e392ebae03": {
+    "imagePath": "/dish-images/HC_e392ebae03.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%85%B1%E6%8E%92%E9%AA%A8/%E9%85%B1%E6%8E%92%E9%AA%A8.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%85%B1%E6%8E%92%E9%AA%A8/1.jpeg"
+  },
+  "HC_e71e3bcb35": {
+    "imagePath": "/dish-images/HC_e71e3bcb35.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%B9%96%E5%8D%97%E5%AE%B6%E5%B8%B8%E7%BA%A2%E7%83%A7%E8%82%89/%E6%B9%96%E5%8D%97%E5%AE%B6%E5%B8%B8%E7%BA%A2%E7%83%A7%E8%82%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%B9%96%E5%8D%97%E5%AE%B6%E5%B8%B8%E7%BA%A2%E7%83%A7%E8%82%89/%E6%B9%96%E5%8D%97%E5%AE%B6%E5%B8%B8%E7%BA%A2%E7%83%A7%E8%82%89.jpeg"
+  },
+  "HC_e7de6812af": {
+    "imagePath": "/dish-images/HC_e7de6812af.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/soup/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5.png"
+  },
+  "HC_ea64b6f2a0": {
+    "imagePath": "/dish-images/HC_ea64b6f2a0.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E5%87%89%E7%B2%89/%E5%87%89%E7%B2%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E5%87%89%E7%B2%89/lf1.jpg"
+  },
+  "HC_ec32bccfc2": {
+    "imagePath": "/dish-images/HC_ec32bccfc2.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82.jpeg"
+  },
+  "HC_ec6f2b658b": {
+    "imagePath": "/dish-images/HC_ec6f2b658b.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E6%A6%84%E8%8F%9C%E8%82%89%E6%9C%AB%E5%9B%9B%E5%AD%A3%E8%B1%86/%E6%A6%84%E8%8F%9C%E8%82%89%E6%9C%AB%E5%9B%9B%E5%AD%A3%E8%B1%86.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E6%A6%84%E8%8F%9C%E8%82%89%E6%9C%AB%E5%9B%9B%E5%AD%A3%E8%B1%86/%E6%A6%84%E8%8F%9C%E8%82%89%E6%9C%AB%E5%9B%9B%E5%AD%A3%E8%B1%86.JPG"
+  },
+  "HC_ed2dd86acf": {
+    "imagePath": "/dish-images/HC_ed2dd86acf.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%BB%91%E6%A4%92%E7%89%9B%E6%9F%B3/%E9%BB%91%E6%A4%92%E7%89%9B%E6%9F%B3.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%BB%91%E6%A4%92%E7%89%9B%E6%9F%B3/%E9%BB%91%E6%A4%92%E7%89%9B%E6%9F%B3.jpg"
+  },
+  "HC_edab200e40": {
+    "imagePath": "/dish-images/HC_edab200e40.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%86%89%E6%8E%92%E9%AA%A8/%E9%86%89%E6%8E%92%E9%AA%A8.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%86%89%E6%8E%92%E9%AA%A8/1.jpeg"
+  },
+  "HC_ef841aeca3": {
+    "imagePath": "/dish-images/HC_ef841aeca3.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E5%9C%B0%E4%B8%89%E9%B2%9C/%E5%9C%B0%E4%B8%89%E9%B2%9C.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E5%9C%B0%E4%B8%89%E9%B2%9C/%E5%9C%B0%E4%B8%89%E9%B2%9C.jpg"
+  },
+  "HC_f231828ba2": {
+    "imagePath": "/dish-images/HC_f231828ba2.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E9%BE%9F%E8%8B%93%E8%86%8F/%E9%BE%9F%E8%8B%93%E8%86%8F.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E9%BE%9F%E8%8B%93%E8%86%8F/%E9%BE%9F%E8%8B%93%E8%86%8F%E6%88%90%E5%93%81.jpg"
+  },
+  "HC_f2a21e0892": {
+    "imagePath": "/dish-images/HC_f2a21e0892.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E6%B7%B7%E5%90%88%E7%83%A4%E9%B1%BC/%E7%83%A4%E9%B1%BC.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E6%B7%B7%E5%90%88%E7%83%A4%E9%B1%BC/%E7%83%A4%E9%B1%BC.jpg"
+  },
+  "HC_f4563f02a6": {
+    "imagePath": "/dish-images/HC_f4563f02a6.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E6%97%A5%E5%BC%8F%E5%92%96%E5%96%B1%E9%A5%AD/%E6%97%A5%E5%BC%8F%E5%92%96%E5%96%B1%E9%A5%AD.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/staple/%E6%97%A5%E5%BC%8F%E5%92%96%E5%96%B1%E9%A5%AD/%E6%88%90%E5%93%81.jpg"
+  },
+  "HC_f7b9f399d5": {
+    "imagePath": "/dish-images/HC_f7b9f399d5.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E9%85%B8%E5%A5%B6%E6%84%8F%E5%BC%8F%E5%A5%B6%E5%86%BB/%E9%85%B8%E5%A5%B6%E6%84%8F%E5%BC%8F%E5%A5%B6%E5%86%BB.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E9%85%B8%E5%A5%B6%E6%84%8F%E5%BC%8F%E5%A5%B6%E5%86%BB/%E9%85%B8%E5%A5%B6%E6%84%8F%E5%BC%8F%E5%A5%B6%E5%86%BB.png"
+  },
+  "HC_f93e96308a": {
+    "imagePath": "/dish-images/HC_f93e96308a.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/vegetable_dish/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.png"
+  },
+  "HC_fcc5030d24": {
+    "imagePath": "/dish-images/HC_fcc5030d24.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E6%8F%90%E6%8B%89%E7%B1%B3%E8%8B%8F/%E6%8F%90%E6%8B%89%E7%B1%B3%E8%8B%8F.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/dessert/%E6%8F%90%E6%8B%89%E7%B1%B3%E8%8B%8F/%E6%8F%90%E6%8B%89%E7%B1%B3%E8%8B%8F%E6%88%90%E5%93%81.jpg"
+  },
+  "HC_fe9192f18b": {
+    "imagePath": "/dish-images/HC_fe9192f18b.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/sznr1.jpg"
+  },
+  "RC_SC_001": {
+    "imagePath": "/dish-images/RC_SC_001.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90/1.jpeg"
+  },
+  "RC_SC_002": {
+    "imagePath": "/dish-images/RC_SC_002.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81.jpg"
+  },
+  "RC_SC_003": {
+    "imagePath": "/dish-images/RC_SC_003.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%B1%BC%E9%A6%99%E8%8C%84%E5%AD%90/%E9%B1%BC%E9%A6%99%E8%8C%84%E5%AD%90.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E9%B1%BC%E9%A6%99%E8%8C%84%E5%AD%90/yxqz1.jpg"
+  },
+  "RC_SC_004": {
+    "imagePath": "/dish-images/RC_SC_004.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%9B%9E%E9%94%85%E8%82%89/%E5%9B%9E%E9%94%85%E8%82%89.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/meat_dish/%E5%9B%9E%E9%94%85%E8%82%89/2.jpeg"
+  },
+  "RC_YU_001": {
+    "imagePath": "/dish-images/RC_YU_001.jpg",
+    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E7%99%BD%E7%81%BC%E8%99%BE/%E7%99%BD%E7%81%BC%E8%99%BE.md",
+    "sourceName": "HowToCook 社区菜谱",
+    "imageSourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/c2063eb7050bac0cb998779c62fa08c649c9882f/dishes/aquatic/%E7%99%BD%E7%81%BC%E8%99%BE/%E7%99%BD%E7%81%BC%E8%99%BE.webp"
+  }
+}

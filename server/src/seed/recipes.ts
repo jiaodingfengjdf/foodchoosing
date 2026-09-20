@@ -1,4 +1,6 @@
 import type { DB } from "../db";
+import communityRecipes from "./data/community-recipes.json";
+import photoSources from "./data/photo-sources.json";
 
 export const COLOR_TAGS = ["红", "橙", "黄", "绿", "白", "棕", "黑"] as const;
 export type ColorTag = (typeof COLOR_TAGS)[number];
@@ -18,9 +20,14 @@ export interface RecipeSeed {
   steps: { text: string; seconds?: number; tip?: string }[];
   soloTip: string;
   colorTag: ColorTag;
+  imagePath?: string;
+  sourceUrl?: string;
+  sourceName?: string;
+  sourceNote?: string;
+  servingsNote?: string;
 }
 
-export const RECIPE_SEEDS: RecipeSeed[] = [
+export const ORIGINAL_RECIPE_SEEDS: RecipeSeed[] = [
   /* ====== 川菜 sichuan（6 道）====== */
   {
     id: "RC_SC_001", cuisineId: "sichuan", name: "麻婆豆腐", nameEn: "Mapo Tofu", emoji: "🌶️",
@@ -1135,19 +1142,32 @@ export const RECIPE_SEEDS: RecipeSeed[] = [
   },
 ];
 
+export const RECIPE_SEEDS: RecipeSeed[] = [...ORIGINAL_RECIPE_SEEDS, ...(communityRecipes as RecipeSeed[])];
+
 export function seedRecipes(db: DB): void {
   const stmt = db.prepare(
-    `INSERT OR IGNORE INTO recipes
+    `INSERT INTO recipes
       (id, cuisine_id, name, name_en, emoji, image_path, kcal, minutes, difficulty,
-       taste_tags, ingredients, tools, steps, solo_tip, color_tag)
-     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+       taste_tags, ingredients, tools, steps, solo_tip, color_tag, metadata)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+     ON CONFLICT(id) DO UPDATE SET
+       cuisine_id=excluded.cuisine_id, name=excluded.name, name_en=excluded.name_en,
+       image_path=excluded.image_path, kcal=excluded.kcal, minutes=excluded.minutes,
+       difficulty=excluded.difficulty, taste_tags=excluded.taste_tags,
+       ingredients=excluded.ingredients, tools=excluded.tools, steps=excluded.steps,
+       solo_tip=excluded.solo_tip, color_tag=excluded.color_tag, metadata=excluded.metadata`
   );
   for (const r of RECIPE_SEEDS) {
+    const photo = (photoSources as Record<string, { imagePath: string; sourceUrl: string }>)[r.id];
     stmt.run(
-      r.id, r.cuisineId, r.name, r.nameEn, r.emoji, `/dish-images/${r.id}.png`,
+      r.id, r.cuisineId, r.name, r.nameEn, r.emoji, photo?.imagePath ?? r.imagePath ?? null,
       r.kcal, r.minutes, r.difficulty,
       JSON.stringify(r.tasteTags), JSON.stringify(r.ingredients),
-      JSON.stringify(r.tools), JSON.stringify(r.steps), r.soloTip, r.colorTag
+      JSON.stringify(r.tools), JSON.stringify(r.steps), r.soloTip, r.colorTag,
+      JSON.stringify({ source_url: r.sourceUrl ?? photo?.sourceUrl,
+        source_name: r.sourceName ?? (photo ? "照片：HowToCook 社区" : undefined),
+        source_note: r.sourceNote, servings_note: r.servingsNote,
+        image_credit: photo ? "HowToCook contributors · Unlicense" : undefined })
     );
   }
 }

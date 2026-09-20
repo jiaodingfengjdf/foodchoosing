@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from "vitest";
 import { openDb, DB } from "../src/db";
-import { seedAll } from "../src/seed";
+import { seedAll, BADGES } from "../src/seed";
 import { seedRecipes } from "../src/seed/recipes";
 import { badgeProgress, evaluateBadges, listBadgesForUser } from "../src/services/badges";
 import { computeStreak } from "../src/services/streak";
@@ -84,8 +84,8 @@ describe("badgeProgress / evaluateBadges", () => {
   it("globe_master：进度 = 达标洲数，未达标不解锁", () => {
     for (const id of ["RC_SC_001", "RC_YU_001", "RC_JP_001", "RC_TH_001", "RC_IN_001"]) checkin(id);
     const p = badgeProgress(db, userId, def("globe_master"));
-    expect(p.current).toBe(0); // 亚洲只有 4 个国家
-    expect(p.target).toBe(5);
+    expect(p.current).toBe(1); // 亚洲已打卡，其他洲尚未探索
+    expect(p.target).toBe(4);
   });
 });
 
@@ -93,7 +93,7 @@ describe("listBadgesForUser", () => {
   it("返回 8 枚，含进度与解锁状态", () => {
     checkin("RC_IT_001");
     const views = listBadgesForUser(db, userId);
-    expect(views.length).toBe(8);
+    expect(views.length).toBe(BADGES.length);
     const eu = views.find((v) => v.id === "eu_first")!;
     expect(eu.current).toBe(1);
     expect(eu.unlocked).toBe(false);

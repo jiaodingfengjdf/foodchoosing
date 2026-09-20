@@ -29,6 +29,11 @@ export interface RecipeDTO {
   steps: StepDTO[];
   solo_tip: string;
   color_tag: string;
+  source_url?: string;
+  source_name?: string;
+  source_note?: string;
+  servings_note?: string;
+  image_credit?: string;
 }
 
 export type SceneTag = "quick" | "weekend";
@@ -89,5 +94,6 @@ export function toRecipeDTO(db: DB, row: RecipeRow): RecipeDTO {
     steps: JSON.parse(row.steps) as StepDTO[],
     solo_tip: row.solo_tip,
     color_tag: row.color_tag,
+    ...JSON.parse(row.metadata ?? "{}"),
   };
 }

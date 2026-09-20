@@ -63,5 +63,9 @@ export function openDb(dbPath?: string): DB {
   db.pragma("journal_mode = WAL");
   db.pragma("foreign_keys = ON");
   db.exec(SCHEMA);
+  const recipeColumns = db.prepare("PRAGMA table_info(recipes)").all() as { name: string }[];
+  if (!recipeColumns.some((column) => column.name === "metadata")) {
+    db.exec("ALTER TABLE recipes ADD COLUMN metadata TEXT NOT NULL DEFAULT '{}'");
+  }
   return db;
 }

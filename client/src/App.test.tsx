@@ -5,6 +5,7 @@ import App from "./App";
 
 // 页面实现（Task 13+）后会用到这些模块，先按计划隔离掉网络与本地存储。
 vi.mock("./api/hooks", () => ({
+  useCatalog: () => ({ data: undefined }),
   useCuisineTree: () => ({ data: undefined }),
   useProfile: () => ({ data: undefined }),
   useFavorites: () => ({ data: undefined }),

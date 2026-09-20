@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import type { SpinResponse } from "../api/types";
 import { track } from "../lib/api";
+import { DishPhoto } from "./DishPhoto";
 
 export function SpinResultModal({ data, onClose, onReroll, rerolling, offline = false }: {
   data: SpinResponse;
@@ -34,13 +35,13 @@ export function SpinResultModal({ data, onClose, onReroll, rerolling, offline = 
           </div>
         )}
 
-        <div className="text-6xl">{result.emoji}</div>
+        <DishPhoto src={result.image_path} name={result.name} className="mb-3 h-40 w-full rounded-2xl" />
         <h2 className="mt-2 text-xl font-bold">{result.name}</h2>
         <p className="text-xs text-neutral-400">
           {result.name_en} · {result.cuisine_path}
         </p>
         <p className="mt-2 text-sm text-neutral-600">
-          🔥 {result.kcal} kcal · ⏱ {result.minutes} 分钟 · {"★".repeat(result.difficulty)}
+          约 {result.minutes} 分钟 · {"★".repeat(result.difficulty)}
         </p>
 
         <div className="mt-5 space-y-2">

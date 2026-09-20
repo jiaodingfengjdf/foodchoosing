@@ -6,6 +6,7 @@ export type RecipeRow = {
   id: string; cuisine_id: string; name: string; name_en: string; emoji: string; image_path: string | null;
   kcal: number; minutes: number; difficulty: number; taste_tags: string; ingredients: string;
   tools: string; steps: string; solo_tip: string; color_tag: string;
+  metadata?: string;
 };
 
 type CuisineRow = {
@@ -97,7 +98,7 @@ function basePool(db: DB, userId: string, cuisineId: string | null, source: Sour
   let rows: RecipeRow[];
   if (source === "favorites") rows = selectFavoriteRecipes(db).all(userId) as RecipeRow[];
   else if (cuisineId === null) rows = selectAllRecipes(db).all() as RecipeRow[];
-  else rows = selectRecipesByCuisine(db).all(cuisineId) as RecipeRow[];
+  else rows = recipesOfCuisines(db, descendantCuisineIds(db, cuisineId));
   return filterRecentlyServed(db, userId, rows);
 }
 
@@ -164,12 +165,16 @@ function rerollUsed(db: DB, userId: string): number {
 }
 
 function doSpin(db: DB, userId: string, cuisineId: string | null, source: Source, action: "spin" | "reroll"): SpinResult {
+  if (cuisineId && !getCuisine(db).get(cuisineId)) throw new HttpError(404, "NOT_FOUND", "菜系不存在");
   const { pool, pooledUp } = buildPool(db, userId, cuisineId, source, statDate());
   if (pool.length === 0) {
     throw new HttpError(404, "EMPTY_POOL", "这个分类下暂时没有可选菜品，换一个菜系试试吧");
   }
   const target = Math.min(POOL_CEIL, Math.max(POOL_FLOOR, pool.length));
-  const candidates = sampleByRatio(pool, target);
+  const last = db.prepare("SELECT recipe_id FROM spin_history WHERE user_id=? AND action IN ('spin','reroll') ORDER BY id DESC LIMIT 1")
+    .get(userId) as { recipe_id: string } | undefined;
+  const eligible = pool.length > 1 ? pool.filter((recipe) => recipe.id !== last?.recipe_id) : pool;
+  const candidates = sampleByRatio(eligible, Math.min(target, eligible.length));
   const result = candidates[Math.floor(Math.random() * candidates.length)];
   recordSpin(db, userId, result.id, source, action);
   return { result, candidates, pooledUp, rerollLeft: FREE_REROLLS - rerollUsed(db, userId) };
@@ -181,6 +186,7 @@ export function spin(db: DB, userId: string, cuisineId: string | null, source: S
 
 /** 「换一个」：每日 2 次免费额度，超出抛 429 REROLL_EXHAUSTED。 */
 export function rerollSpin(db: DB, userId: string, cuisineId: string | null, source: Source): SpinResult {
+  return db.transaction(() => {
   if (rerollUsed(db, userId) >= FREE_REROLLS) {
     throw new HttpError(429, "REROLL_EXHAUSTED", "今日挑食机会已用完，勇敢尝试一下吧！或手动切换其他菜系");
   }
@@ -188,6 +194,7 @@ export function rerollSpin(db: DB, userId: string, cuisineId: string | null, sou
     "INSERT INTO reroll_usage (user_id, date, count) VALUES (?, ?, 1) ON CONFLICT(user_id, date) DO UPDATE SET count = count + 1"
   ).run(userId, statDate());
   return doSpin(db, userId, cuisineId, source, "reroll");
+  })();
 }
 
 /** 临时拉黑：30 天内该菜品权重为 0。 */

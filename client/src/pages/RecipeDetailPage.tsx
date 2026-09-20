@@ -61,7 +61,7 @@ export function RecipeDetailPage() {
           />
         )}
         {!showImage && (
-          <div className="absolute inset-0 flex items-center justify-center text-8xl">{recipe.emoji}</div>
+            <div className="absolute inset-0 flex items-center justify-center text-sm text-[#947760]">这道菜的实拍正在补充</div>
         )}
         <button
           onClick={() => navigate(-1)}
@@ -74,6 +74,9 @@ export function RecipeDetailPage() {
 
       <div className="p-4">
         <h1 className="text-xl font-bold">{recipe.name}</h1>
+        {recipe.source_url && <a href={recipe.source_url} target="_blank" rel="noreferrer" className="mt-2 block text-xs text-[#947760]">{recipe.source_name} · 查看原始出处 ↗</a>}
+        {recipe.source_note && <p className="mt-2 rounded-xl bg-amber-50 p-3 text-xs leading-5 text-amber-900">{recipe.source_note}</p>}
+        {recipe.servings_note && <details className="mt-3 rounded-xl border border-neutral-200 bg-white p-3 text-sm"><summary className="cursor-pointer font-medium">配方用量与份量说明</summary><p className="mt-3 whitespace-pre-wrap text-xs leading-6 text-neutral-600">{recipe.servings_note}</p></details>}
         <p className="text-xs text-neutral-400">
           {recipe.name_en} · {recipe.cuisine_path}
         </p>
@@ -82,7 +85,7 @@ export function RecipeDetailPage() {
           <span className="rounded-full bg-neutral-100 px-2 py-1">
             {"★".repeat(recipe.difficulty)} 难度
           </span>
-          <span className="rounded-full bg-neutral-100 px-2 py-1">🔥 {recipe.kcal} kcal</span>
+          {recipe.kcal > 0 && <span className="rounded-full bg-neutral-100 px-2 py-1">参考热量 {recipe.kcal} kcal</span>}
           {recipe.taste_tags.map((t) => (
             <span key={t} className="rounded-full bg-amber-50 px-2 py-1 text-amber-700">
               {t}

@@ -115,6 +115,21 @@ describe("buildPool", () => {
 });
 
 describe("spin / reroll", () => {
+  it("同一用户连续转动不重复上一次结果", () => {
+    const first = spin(db, userId, "sichuan", "all");
+    const second = spin(db, userId, "sichuan", "all");
+    expect(second.result.id).not.toBe(first.result.id);
+  });
+  it("重转失败不扣除次数", () => {
+    expectHttpError(() => rerollSpin(db, userId, null, "favorites"), "EMPTY_POOL", 404);
+    expect(db.prepare("SELECT * FROM reroll_usage WHERE user_id=?").get(userId)).toBeUndefined();
+  });
+  it("选择国家时只在该国家的子菜系内抽取", () => {
+    const { pool, pooledUp } = buildPool(db, userId, "china", "all", TODAY);
+    expect(pool.length).toBeGreaterThan(100);
+    expect(pooledUp).toBeNull();
+    expect(pool.every(r => !["kansai", "thai-north", "north-indian"].includes(r.cuisine_id))).toBe(true);
+  });
   it("spin 返回 6-8 候选且 result 在候选中，写 spin_history", () => {
     const r = spin(db, userId, "sichuan", "all");
     expect(r.candidates.length).toBeGreaterThanOrEqual(6);

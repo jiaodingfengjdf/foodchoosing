@@ -40,6 +40,19 @@ export interface RecipeDTO {
   color_tag: string;
   is_favorite?: boolean;
   is_blocked?: boolean;
+  source_url?: string;
+  source_name?: string;
+  source_note?: string;
+  servings_note?: string;
+  image_credit?: string;
+}
+
+export interface CatalogResponse {
+  items: (RecipeDTO & { is_favorite: boolean; is_cooked: boolean })[];
+  total: number;
+  catalog_total: number;
+  photo_count: number;
+  cuisine_count: number;
 }
 
 export interface SpinResponse {

@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeEach } from "vitest";
 import request from "supertest";
 import { openDb, DB } from "../src/db";
-import { seedAll } from "../src/seed";
+import { seedAll, BADGES } from "../src/seed";
 import { seedRecipes } from "../src/seed/recipes";
 import { createApp } from "../src/app";
 import { statDate, addDays, nowIso } from "../src/util/dates";
@@ -42,7 +42,7 @@ describe("POST /api/checkins", () => {
     expect(res.body.streak).toBe(1);
     expect(res.body.max_streak).toBe(1);
     expect(res.body.stat_date).toBe(statDate());
-    expect(res.body.new_badges).toEqual([]);
+    expect(res.body.new_badges).toEqual(expect.arrayContaining([expect.objectContaining({ id: "region_sichuan" })]));
     const r = row<{ photo_path: string }>(
       "SELECT * FROM checkins WHERE user_id=(SELECT id FROM users WHERE device_id='dev-1')"
     );
@@ -116,7 +116,7 @@ describe("GET /api/profile/summary", () => {
 describe("GET /api/badges + PATCH settings + POST events", () => {
   it("badges 列表 8 枚", async () => {
     const res = await request(app).get("/api/badges").set(DEV);
-    expect(res.body.badges.length).toBe(8);
+    expect(res.body.badges.length).toBe(BADGES.length);
   });
 
   it("settings 合并保存", async () => {
