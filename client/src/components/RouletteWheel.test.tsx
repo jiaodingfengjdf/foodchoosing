@@ -1,5 +1,6 @@
 import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import { RouletteWheel } from "./RouletteWheel";
 import type { RecipeDTO } from "../api/types";
 
@@ -19,14 +20,24 @@ describe("RouletteWheel", () => {
     expect(screen.getByRole("button", { name: /今天吃它/ })).toBeInTheDocument();
   });
 
-  it("无候选时 GO 按钮禁用", () => {
+  it("无候选时 GO 按钮仍可用（否则首次进入无法发起第一次转动）", () => {
     render(<RouletteWheel candidates={[]} spinning={false} resultId={null} onSpinEnd={vi.fn()} />);
-    expect(screen.getByRole("button", { name: /今天吃它/ })).toBeDisabled();
+    const go = screen.getByRole("button", { name: /今天吃它/ });
+    expect(go).toBeInTheDocument();
+    expect(go).not.toBeDisabled();
   });
 
   it("转动中 GO 按钮禁用", () => {
     const candidates = ["a", "b"].map((s) => mk(s, `菜${s}`));
     render(<RouletteWheel candidates={candidates} spinning resultId={null} onSpinEnd={vi.fn()} />);
     expect(screen.getByRole("button", { name: /今天吃它/ })).toBeDisabled();
+  });
+
+  it("无候选时点击 GO 仍会触发 onGo", async () => {
+    const user = userEvent.setup();
+    const onGo = vi.fn();
+    render(<RouletteWheel candidates={[]} spinning={false} resultId={null} onSpinEnd={vi.fn()} onGo={onGo} />);
+    await user.click(screen.getByRole("button", { name: /今天吃它/ }));
+    expect(onGo).toHaveBeenCalled();
   });
 });

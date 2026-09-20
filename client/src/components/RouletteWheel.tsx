@@ -92,7 +92,9 @@ export function RouletteWheel({ candidates, spinning, resultId, onSpinEnd, onGo 
 
       <motion.button
         whileTap={{ scale: 0.95 }}
-        disabled={spinning || n === 0}
+        // 注意：不能因「无候选」而禁用。首次进入时 candidates 为空（要转完第一次才有数据），
+        // 若据此禁用，用户永远点不了第一次，整个应用变成死局。
+        disabled={spinning}
         onClick={onGo}
         aria-label="今天吃它"
         className="absolute left-1/2 top-1/2 flex h-20 w-20 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-brand-500 text-sm font-bold text-white shadow-xl disabled:opacity-60"
