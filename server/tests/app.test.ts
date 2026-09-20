@@ -63,13 +63,15 @@ describe("errorHandler", () => {
 });
 
 describe("安全响应头", () => {
-  it("CSP 放行 blob worker（canvas-confetti 依赖），其余仍为 Helmet 默认", async () => {
+  it("CSP 支持粒子 worker、本地图片压缩与离线照片转换", async () => {
     // 必须打真实存在的路由：Express 内置 404 会用自己的 default-src 'none' 覆盖 CSP，
     // 用不存在的路径会断言到 404 页面的头，得到假失败。
     const res = await request(createApp(db)).get("/api/cuisines/tree").set("X-Device-Id", "dev-1");
     expect(res.status).toBe(200);
     const csp = res.headers["content-security-policy"] ?? "";
     expect(csp).toContain("worker-src 'self' blob:");
+    expect(csp).toContain("img-src 'self' data: blob:");
+    expect(csp).toContain("connect-src 'self' data:");
     // 默认策略不能被整体覆盖掉
     expect(csp).toContain("script-src 'self'");
     expect(csp).toContain("object-src 'none'");

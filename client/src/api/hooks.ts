@@ -1,5 +1,6 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { api, apiForm } from "../lib/api";
+import { useAppStore } from "../stores/useAppStore";
 import type {
   BadgeView,
   CheckinResponse,
@@ -33,6 +34,8 @@ export function useCuisineTree() {
 
 export function useSpin() {
   return useMutation({
+    // 必须执行请求并触发失败回调，才能进入 HomePage 的缓存抽菜逻辑。
+    networkMode: "always",
     mutationFn: (body: SpinBody) => api<SpinResponse>("/api/spin", jsonInit("POST", body)),
   });
 }
@@ -44,10 +47,13 @@ export function useReroll() {
 }
 
 export function useRecipe(id: string | undefined) {
+  const cached = useAppStore((state) => state.lastCandidates?.find((recipe) => recipe.id === id));
   return useQuery({
     queryKey: ["recipe", id],
     queryFn: () => api<{ recipe: RecipeDTO }>(`/api/recipes/${id}`),
     enabled: !!id,
+    // 转盘缓存含完整做法，断网时也能进入详情；联网请求仍会更新收藏等状态。
+    placeholderData: cached ? { recipe: cached } : undefined,
   });
 }
 

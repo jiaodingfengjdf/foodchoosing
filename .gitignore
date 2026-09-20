@@ -6,3 +6,4 @@ server/uploads/*
 .env
 .superpowers/
 .workbuddy/
+.runtime/

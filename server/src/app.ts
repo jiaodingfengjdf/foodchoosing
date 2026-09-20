@@ -15,8 +15,12 @@ export function createApp(db: DB): Express {
       contentSecurityPolicy: {
         // canvas-confetti 默认用 blob worker 渲染粒子；Helmet 默认的 script-src 'self'
         // 会把它拦掉（粒子仍会退化到主线程渲染，但控制台会持续报 CSP 违规）。
-        // 这里只额外放行 worker-src 的 blob:，其余指令沿用 Helmet 默认值。
-        directives: { "worker-src": ["'self'", "blob:"] },
+        // 本地照片压缩读取 blob URL，离线照片通过 fetch(data URL) 转回 Blob。
+        directives: {
+          "worker-src": ["'self'", "blob:"],
+          "img-src": ["'self'", "data:", "blob:"],
+          "connect-src": ["'self'", "data:"],
+        },
       },
     })
   );
