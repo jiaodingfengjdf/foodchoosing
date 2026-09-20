@@ -8,7 +8,18 @@ import { eventsRouter } from "./routes/events";
 
 export function createApp(db: DB): Express {
   const app = express();
-  app.use(helmet({ crossOriginResourcePolicy: false }));
+  app.use(
+    helmet({
+      // 顶图/打卡照片需跨源读取策略放宽
+      crossOriginResourcePolicy: false,
+      contentSecurityPolicy: {
+        // canvas-confetti 默认用 blob worker 渲染粒子；Helmet 默认的 script-src 'self'
+        // 会把它拦掉（粒子仍会退化到主线程渲染，但控制台会持续报 CSP 违规）。
+        // 这里只额外放行 worker-src 的 blob:，其余指令沿用 Helmet 默认值。
+        directives: { "worker-src": ["'self'", "blob:"] },
+      },
+    })
+  );
   app.use(express.json({ limit: "1mb" }));
 
   // 埋点先挂：sendBeacon 无法携带自定义头，允许匿名并用 body.device_id 标识。
