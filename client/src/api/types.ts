@@ -45,6 +45,8 @@ export interface RecipeDTO {
   source_note?: string;
   servings_note?: string;
   image_credit?: string;
+  original_instructions?: string;
+  original_source_url?: string | null;
 }
 
 export interface CatalogResponse {

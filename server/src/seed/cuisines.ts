@@ -1,6 +1,8 @@
+import worldCuisines from "./data/world-cuisines.json";
 export type CuisineSeed = [string, number, string | null, string, string, string[]];
 
 export const CUISINES: CuisineSeed[] = [
+  ...(worldCuisines as CuisineSeed[]),
   // L1
   ["asia", 1, null, "亚洲", "Asia", []],
   ["europe", 1, null, "欧洲", "Europe", []],

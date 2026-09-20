@@ -20,7 +20,9 @@ it("菜库有可用实拍、完整做法和可追溯来源", () => {
     expect(JSON.parse(row.steps).length, row.id).toBeGreaterThan(1);
     if (row.image_path) {
       expect(fs.existsSync(path.resolve("public", `.${row.image_path}`)), row.id).toBe(true);
-      expect(JSON.parse(row.metadata).source_url).toMatch(/^https:\/\/github.com\/Anduin2017\/HowToCook\//);
+      expect(JSON.parse(row.metadata).source_url).toMatch(row.id.startsWith("WORLD_")
+        ? /^https:\/\/www.themealdb.com\/meal.php\?c=\d+$/
+        : /^https:\/\/github.com\/Anduin2017\/HowToCook\//);
     }
   }
 });

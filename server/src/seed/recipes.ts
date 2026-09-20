@@ -1,6 +1,7 @@
 import type { DB } from "../db";
 import communityRecipes from "./data/community-recipes.json";
 import photoSources from "./data/photo-sources.json";
+import worldRecipes from "./data/world-recipes.json";
 
 export const COLOR_TAGS = ["红", "橙", "黄", "绿", "白", "棕", "黑"] as const;
 export type ColorTag = (typeof COLOR_TAGS)[number];
@@ -25,6 +26,9 @@ export interface RecipeSeed {
   sourceName?: string;
   sourceNote?: string;
   servingsNote?: string;
+  originalInstructions?: string;
+  originalSourceUrl?: string | null;
+  imageCredit?: string;
 }
 
 export const ORIGINAL_RECIPE_SEEDS: RecipeSeed[] = [
@@ -1142,7 +1146,7 @@ export const ORIGINAL_RECIPE_SEEDS: RecipeSeed[] = [
   },
 ];
 
-export const RECIPE_SEEDS: RecipeSeed[] = [...ORIGINAL_RECIPE_SEEDS, ...(communityRecipes as RecipeSeed[])];
+export const RECIPE_SEEDS: RecipeSeed[] = [...ORIGINAL_RECIPE_SEEDS, ...(communityRecipes as RecipeSeed[]), ...(worldRecipes as RecipeSeed[])];
 
 export function seedRecipes(db: DB): void {
   const stmt = db.prepare(
@@ -1167,7 +1171,8 @@ export function seedRecipes(db: DB): void {
       JSON.stringify({ source_url: r.sourceUrl ?? photo?.sourceUrl,
         source_name: r.sourceName ?? (photo ? "照片：HowToCook 社区" : undefined),
         source_note: r.sourceNote, servings_note: r.servingsNote,
-        image_credit: photo ? "HowToCook contributors · Unlicense" : undefined })
+        original_instructions: r.originalInstructions, original_source_url: r.originalSourceUrl,
+        image_credit: r.imageCredit ?? (photo ? "HowToCook contributors · Unlicense" : undefined) })
     );
   }
 }

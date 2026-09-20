@@ -9,14 +9,14 @@ beforeEach(() => { db = openDb(":memory:"); });
 const row = <T>(sql: string, ...params: unknown[]): T => db.prepare(sql).get(...params) as T;
 
 describe("seedAll", () => {
-  it("写入 30 个菜系节点（4 L1 / 7 L2 / 9 L3 / 10 L4）", () => {
+  it("写入覆盖六大洲的四级菜系树", () => {
     seedAll(db);
     const byLevel = (l: number) =>
       row<{ n: number }>("SELECT COUNT(*) AS n FROM cuisines WHERE level=?", l).n;
-    expect(byLevel(1)).toBe(4);
-    expect(byLevel(2)).toBe(7);
-    expect(byLevel(3)).toBeGreaterThanOrEqual(13);
-    expect(byLevel(4)).toBeGreaterThanOrEqual(35);
+    expect(byLevel(1)).toBe(6);
+    expect(byLevel(2)).toBeGreaterThanOrEqual(15);
+    expect(byLevel(3)).toBeGreaterThanOrEqual(33);
+    expect(byLevel(4)).toBeGreaterThanOrEqual(60);
   });
 
   it("菜系父子关系与标签正确", () => {

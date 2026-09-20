@@ -76,7 +76,9 @@ export function RecipeDetailPage() {
         <h1 className="text-xl font-bold">{recipe.name}</h1>
         {recipe.source_url && <a href={recipe.source_url} target="_blank" rel="noreferrer" className="mt-2 block text-xs text-[#947760]">{recipe.source_name} · 查看原始出处 ↗</a>}
         {recipe.source_note && <p className="mt-2 rounded-xl bg-amber-50 p-3 text-xs leading-5 text-amber-900">{recipe.source_note}</p>}
-        {recipe.servings_note && <details className="mt-3 rounded-xl border border-neutral-200 bg-white p-3 text-sm"><summary className="cursor-pointer font-medium">配方用量与份量说明</summary><p className="mt-3 whitespace-pre-wrap text-xs leading-6 text-neutral-600">{recipe.servings_note}</p></details>}
+          {recipe.servings_note && <details className="mt-3 rounded-xl border border-neutral-200 bg-white p-3 text-sm"><summary className="cursor-pointer font-medium">配方用量与份量说明</summary><p className="mt-3 whitespace-pre-wrap text-xs leading-6 text-neutral-600">{recipe.servings_note}</p></details>}
+          {recipe.original_instructions && <details className="mt-3 rounded-xl border border-neutral-200 bg-white p-3 text-sm"><summary className="cursor-pointer font-medium">完整原文做法（英文）</summary><p lang="en" className="mt-3 whitespace-pre-wrap break-words text-xs leading-6 text-neutral-600">{recipe.original_instructions}</p>{recipe.original_source_url && <a href={recipe.original_source_url} target="_blank" rel="noreferrer" className="mt-3 block text-xs text-[#947760]">查看原作者配方 ↗</a>}</details>}
+          {recipe.image_credit && <p className="mt-2 text-[10px] text-neutral-400">照片：{recipe.image_credit}</p>}
         <p className="text-xs text-neutral-400">
           {recipe.name_en} · {recipe.cuisine_path}
         </p>

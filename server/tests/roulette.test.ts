@@ -81,10 +81,11 @@ describe("sampleByRatio", () => {
 });
 
 describe("buildPool", () => {
-  it("克里特(4道)触发并池到南欧，提示含父级名称", () => {
+  it("克里特(4道)优先合并到已有足够菜谱的希腊，提示含父级名称", () => {
     const { pool, pooledUp } = buildPool(db, userId, "crete", "all", TODAY);
     expect(pool.length).toBeGreaterThanOrEqual(6);
-    expect(pooledUp).toContain("南欧");
+    expect(pooledUp).toContain("希腊");
+    expect(pool.every(r => ["crete", "greece-home"].includes(r.cuisine_id))).toBe(true);
   });
 
   it("过滤 7 天内已打卡菜品", () => {

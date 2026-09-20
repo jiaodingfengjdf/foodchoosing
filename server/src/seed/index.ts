@@ -11,7 +11,8 @@ export function seedAll(db: DB): void {
   const insertCuisine = db.prepare(
     "INSERT INTO cuisines (id, level, parent_id, name, name_en, tags) VALUES (?, ?, ?, ?, ?, ?) ON CONFLICT(id) DO UPDATE SET name=excluded.name, name_en=excluded.name_en, tags=excluded.tags"
   );
-  for (const [id, level, parentId, name, nameEn, tags] of CUISINES) {
+  // Imported countries can reference existing continents: always insert parents first.
+  for (const [id, level, parentId, name, nameEn, tags] of [...CUISINES].sort((a, b) => a[1] - b[1])) {
     insertCuisine.run(id, level, parentId, name, nameEn, JSON.stringify([...new Set([...tags, id])]));
   }
   const insertBadge = db.prepare(
