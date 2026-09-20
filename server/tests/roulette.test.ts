@@ -4,11 +4,16 @@ import { seedAll } from "../src/seed";
 import { seedRecipes } from "../src/seed/recipes";
 import { bucketize, sampleByRatio, spin, rerollSpin, buildPool } from "../src/services/roulette";
 import { HttpError } from "../src/util/http";
-import { addDays, nowIso } from "../src/util/dates";
+import { addDays, nowIso, statDate } from "../src/util/dates";
 
 let db: DB;
 let userId: string;
-const TODAY = "2026-09-13";
+/**
+ * 必须用真实的 statDate()。注意 buildPool 的 today 参数是被刻意忽略的——
+ * filterRecentlyServed 内部按 statDate() 算 7 天窗口（见 services/roulette.ts），
+ * 所以若这里写死某个历史日期，打卡记录的 stat_date 会随真实时间推移滑出窗口，测试就假失败。
+ */
+const TODAY = statDate();
 
 /** 断言抛出的是带指定 code/status 的 HttpError（message 为用户文案，故以 code 断言）。 */
 function expectHttpError(fn: () => unknown, code: string, status: number): void {
@@ -91,12 +96,13 @@ describe("buildPool", () => {
   });
 
   it("过滤拉黑中的菜品，过期拉黑不过滤", () => {
+    // 拉黑判定是与真实 now 比较，故这里也必须用相对日期，否则到某天会翻车
     db.prepare(
       "INSERT INTO blocks (user_id, recipe_id, blocked_until) VALUES (?, 'RC_SC_001', ?)"
-    ).run(userId, "2026-10-13T00:00:00.000Z");
+    ).run(userId, `${addDays(statDate(), 30)}T00:00:00.000Z`);
     let { pool } = buildPool(db, userId, "sichuan", "all", TODAY);
     expect(pool.some((r) => r.id === "RC_SC_001")).toBe(false);
-    db.prepare("UPDATE blocks SET blocked_until=?").run("2026-09-12T00:00:00.000Z");
+    db.prepare("UPDATE blocks SET blocked_until=?").run(`${addDays(statDate(), -1)}T00:00:00.000Z`);
     ({ pool } = buildPool(db, userId, "sichuan", "all", TODAY));
     expect(pool.some((r) => r.id === "RC_SC_001")).toBe(true);
   });
